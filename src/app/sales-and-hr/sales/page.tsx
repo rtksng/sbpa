@@ -33,17 +33,17 @@ export default function Sales() {
               <div className="bg-white rounded-xl p-6 border border-zinc-200 shadow-sm hover:shadow-md transition-all duration-200 hover:border-[#fb5642] group">
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-8 h-8 rounded-lg bg-[#fb5642] flex items-center justify-center group-hover:bg-[#d94432] transition-colors">
-                    <span className="text-white font-bold text-sm">1</span>
+                    <span className="text-white font-bold text-base">1</span>
                   </div>
-                  <h3 className="text-base font-semibold text-zinc-900">
+                  <h3 className="text-lg font-semibold text-zinc-900">
                     Commercial Engagements
                   </h3>
                 </div>
-                <ul className="space-y-3 text-sm text-zinc-700">
+                <ul className="space-y-3 text-base text-zinc-700">
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">Commercial meetings are opportunity-driven rather than scheduled by calendar.</span>
@@ -51,7 +51,7 @@ export default function Sales() {
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">These meetings are conducted with prospects and are typically attended by the CRO, Subsidiary Head, or Tech Lead, depending on opportunity complexity.</span>
@@ -59,7 +59,7 @@ export default function Sales() {
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">They focus on validating scope, aligning business intent, and ensuring stakeholder clarity before advancing to formal proposals.</span>
@@ -71,17 +71,17 @@ export default function Sales() {
               <div className="bg-white rounded-xl p-6 border border-zinc-200 shadow-sm hover:shadow-md transition-all duration-200 hover:border-[#fb5642] group">
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-8 h-8 rounded-lg bg-[#fb5642] flex items-center justify-center group-hover:bg-[#d94432] transition-colors">
-                    <span className="text-white font-bold text-sm">2</span>
+                    <span className="text-white font-bold text-base">2</span>
                   </div>
-                  <h3 className="text-base font-semibold text-zinc-900">
+                  <h3 className="text-lg font-semibold text-zinc-900">
                     Sales Coaching and Enablement
                   </h3>
                 </div>
-                <ul className="space-y-3 text-sm text-zinc-700">
+                <ul className="space-y-3 text-base text-zinc-700">
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">Regularly scheduled sales coaching sessions are conducted to enhance discovery, objection handling, and negotiation skills.</span>
@@ -89,7 +89,7 @@ export default function Sales() {
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">Sessions also emphasize cross-team alignment between Pre-Sales, Marketing, and Delivery.</span>
@@ -101,17 +101,17 @@ export default function Sales() {
               <div className="bg-white rounded-xl p-6 border border-zinc-200 shadow-sm hover:shadow-md transition-all duration-200 hover:border-[#fb5642] group">
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-8 h-8 rounded-lg bg-[#fb5642] flex items-center justify-center group-hover:bg-[#d94432] transition-colors">
-                    <span className="text-white font-bold text-sm">3</span>
+                    <span className="text-white font-bold text-base">3</span>
                   </div>
-                  <h3 className="text-base font-semibold text-zinc-900">
+                  <h3 className="text-lg font-semibold text-zinc-900">
                     Reporting and Review Framework
                   </h3>
                 </div>
-                <ul className="space-y-3 text-sm text-zinc-700">
+                <ul className="space-y-3 text-base text-zinc-700">
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">A structured reporting cadence is maintained through CRM dashboards and weekly internal updates.</span>
@@ -119,7 +119,7 @@ export default function Sales() {
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">Metrics such as lead-to-proposal conversion, proposal TAT, and deal outcomes are tracked.</span>
@@ -127,7 +127,7 @@ export default function Sales() {
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">Monthly performance reviews are led by the CRO with subsidiary heads to identify improvement areas and training needs.</span>
@@ -139,7 +139,7 @@ export default function Sales() {
             </div>
             {/* Summary */}
             <div className="bg-blue-50 rounded-lg p-4 border border-blue-200 mt-3">
-                <p className="text-sm text-zinc-900 italic">
+                <p className="text-base text-zinc-900 italic">
                   In essence, the model promotes a top-down strategic alignment while empowering sales teams with operational visibility and decision support through data-driven reviews.
                 </p>
               </div>
@@ -166,17 +166,17 @@ export default function Sales() {
               <div className="bg-white rounded-xl p-6 border border-zinc-200 shadow-sm hover:shadow-md transition-all duration-200 hover:border-orange-300 group">
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-8 h-8 rounded-lg bg-[#fb5642] flex items-center justify-center group-hover:bg-[#d94432] transition-colors">
-                    <span className="text-white font-bold text-sm">1</span>
+                    <span className="text-white font-bold text-base">1</span>
                   </div>
-                  <h3 className="text-base font-semibold text-zinc-900">
+                  <h3 className="text-lg font-semibold text-zinc-900">
                     Roles and Responsibilities
                   </h3>
                 </div>
-                <ul className="space-y-3 text-sm text-zinc-700">
+                <ul className="space-y-3 text-base text-zinc-700">
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">Business Managers are primarily responsible for new business development, client engagement, and pipeline expansion.</span>
@@ -184,7 +184,7 @@ export default function Sales() {
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">They coordinate with Delivery and Project Management teams for capability inputs but do not participate in resource staffing or deployment decisions.</span>
@@ -196,17 +196,17 @@ export default function Sales() {
               <div className="bg-white rounded-xl p-6 border border-zinc-200 shadow-sm hover:shadow-md transition-all duration-200 hover:border-orange-300 group">
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-8 h-8 rounded-lg bg-[#fb5642] flex items-center justify-center group-hover:bg-[#d94432] transition-colors">
-                    <span className="text-white font-bold text-sm">2</span>
+                    <span className="text-white font-bold text-base">2</span>
                   </div>
-                  <h3 className="text-base font-semibold text-zinc-900">
+                  <h3 className="text-lg font-semibold text-zinc-900">
                     Handoff and Collaboration
                   </h3>
                 </div>
-                <ul className="space-y-3 text-sm text-zinc-700">
+                <ul className="space-y-3 text-base text-zinc-700">
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">Upon deal closure, all project details—including scope, assumptions, and pricing rationale—are transitioned formally to the Delivery team through structured handover documents.</span>
@@ -214,7 +214,7 @@ export default function Sales() {
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">This ensures a clear segregation between sales functions and delivery accountability.</span>
@@ -224,7 +224,7 @@ export default function Sales() {
 
               {/* Summary */}
               <div className="bg-orange-50 rounded-lg p-4 border border-orange-200 col-span-2">
-                <p className="text-sm text-zinc-900 italic">
+                <p className="text-base text-zinc-900 italic">
                   This structure ensures agility in client engagement while preserving process integrity and delivery focus.
                 </p>
               </div>
@@ -251,17 +251,17 @@ export default function Sales() {
               <div className="bg-white rounded-xl p-6 border border-zinc-200 shadow-sm hover:shadow-md transition-all duration-200 hover:border-[#fb5642] group">
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-8 h-8 rounded-lg bg-[#fb5642] flex items-center justify-center group-hover:bg-[#d94432] transition-colors">
-                    <span className="text-white font-bold text-sm">1</span>
+                    <span className="text-white font-bold text-base">1</span>
                   </div>
-                  <h3 className="text-base font-semibold text-zinc-900">
+                  <h3 className="text-lg font-semibold text-zinc-900">
                     Dual-Channel Sales Strategy
                   </h3>
                 </div>
-                <ul className="space-y-3 text-sm text-zinc-700">
+                <ul className="space-y-3 text-base text-zinc-700">
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed"><span className="font-semibold">Inbound:</span> Leads flow through marketing-driven channels—website, campaigns, digital listings, and referrals.</span>
@@ -269,7 +269,7 @@ export default function Sales() {
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed"><span className="font-semibold">Outbound:</span> Proactive prospecting through LinkedIn, Upwork, targeted cold outreach, and partnerships forms a major part of the acquisition strategy.</span>
@@ -281,17 +281,17 @@ export default function Sales() {
               <div className="bg-white rounded-xl p-6 border border-zinc-200 shadow-sm hover:shadow-md transition-all duration-200 hover:border-[#fb5642] group">
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-8 h-8 rounded-lg bg-[#fb5642] flex items-center justify-center group-hover:bg-[#d94432] transition-colors">
-                    <span className="text-white font-bold text-sm">2</span>
+                    <span className="text-white font-bold text-base">2</span>
                   </div>
-                  <h3 className="text-base font-semibold text-zinc-900">
+                  <h3 className="text-lg font-semibold text-zinc-900">
                     ICP-Driven Lead Qualification
                   </h3>
                 </div>
-                <ul className="space-y-3 text-sm text-zinc-700">
+                <ul className="space-y-3 text-base text-zinc-700">
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">Every lead is validated against a defined Ideal Customer Profile (ICP) jointly maintained by Marketing and Sales.</span>
@@ -299,7 +299,7 @@ export default function Sales() {
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">ICP alignment ensures efficient resource allocation toward leads with higher probability of conversion and long-term engagement value.</span>
@@ -311,17 +311,17 @@ export default function Sales() {
               <div className="bg-white rounded-xl p-6 border border-zinc-200 shadow-sm hover:shadow-md transition-all duration-200 hover:border-[#fb5642] group">
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-8 h-8 rounded-lg bg-[#fb5642] flex items-center justify-center group-hover:bg-[#d94432] transition-colors">
-                    <span className="text-white font-bold text-sm">3</span>
+                    <span className="text-white font-bold text-base">3</span>
                   </div>
-                  <h3 className="text-base font-semibold text-zinc-900">
+                  <h3 className="text-lg font-semibold text-zinc-900">
                     Pipeline Governance
                   </h3>
                 </div>
-                <ul className="space-y-3 text-sm text-zinc-700">
+                <ul className="space-y-3 text-base text-zinc-700">
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">Leads are managed through a standardized CRM-driven pipeline: <span className="font-semibold text-zinc-900">Lead → Discovery → Proposal → Negotiation → Closure → Handover</span></span>
@@ -329,7 +329,7 @@ export default function Sales() {
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">The pipeline provides real-time visibility to leadership, improving forecasting accuracy and accountability.</span>
@@ -339,7 +339,7 @@ export default function Sales() {
 
               {/* Summary */}
               <div className="bg-blue-50 rounded-lg p-4 border border-blue-200 col-span-3">
-                <p className="text-sm text-zinc-900 italic">
+                <p className="text-base text-zinc-900 italic">
                   The integrated sales and marketing collaboration ensures sustained pipeline quality and strategic consistency across subsidiaries and domains.
                 </p>
               </div>
@@ -367,17 +367,17 @@ export default function Sales() {
               <div className="bg-white rounded-xl p-6 border border-zinc-200 shadow-sm hover:shadow-md transition-all duration-200 hover:border-orange-300 group">
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-8 h-8 rounded-lg bg-[#fb5642] flex items-center justify-center group-hover:bg-[#d94432] transition-colors">
-                    <span className="text-white font-bold text-sm">1</span>
+                    <span className="text-white font-bold text-base">1</span>
                   </div>
-                  <h3 className="text-base font-semibold text-zinc-900">
+                  <h3 className="text-lg font-semibold text-zinc-900">
                     Operational KPIs
                   </h3>
                 </div>
-                <ul className="space-y-3 text-sm text-zinc-700">
+                <ul className="space-y-3 text-base text-zinc-700">
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">Lead-to-Proposal Ratio</span>
@@ -385,7 +385,7 @@ export default function Sales() {
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">Conversion Rate (Proposal to Win)</span>
@@ -393,7 +393,7 @@ export default function Sales() {
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">Average Turnaround Time (Qualification to Proposal)</span>
@@ -401,7 +401,7 @@ export default function Sales() {
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">Iterations per Proposal</span>
@@ -409,7 +409,7 @@ export default function Sales() {
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">Active Pipeline Velocity</span>
@@ -421,17 +421,17 @@ export default function Sales() {
               <div className="bg-white rounded-xl p-6 border border-zinc-200 shadow-sm hover:shadow-md transition-all duration-200 hover:border-orange-300 group">
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-8 h-8 rounded-lg bg-[#fb5642] flex items-center justify-center group-hover:bg-[#d94432] transition-colors">
-                    <span className="text-white font-bold text-sm">2</span>
+                    <span className="text-white font-bold text-base">2</span>
                   </div>
-                  <h3 className="text-base font-semibold text-zinc-900">
+                  <h3 className="text-lg font-semibold text-zinc-900">
                     Financial KPIs
                   </h3>
                 </div>
-                <ul className="space-y-3 text-sm text-zinc-700">
+                <ul className="space-y-3 text-base text-zinc-700">
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">Average Deal Value</span>
@@ -439,7 +439,7 @@ export default function Sales() {
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">Revenue per Qualified Lead</span>
@@ -447,7 +447,7 @@ export default function Sales() {
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">Regional and Subsidiary-wise Contribution</span>
@@ -455,7 +455,7 @@ export default function Sales() {
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">Discount vs. Margin Trend Analysis</span>
@@ -467,17 +467,17 @@ export default function Sales() {
               <div className="bg-white rounded-xl p-6 border border-zinc-200 shadow-sm hover:shadow-md transition-all duration-200 hover:border-orange-300 group">
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-8 h-8 rounded-lg bg-[#fb5642] flex items-center justify-center group-hover:bg-[#d94432] transition-colors">
-                    <span className="text-white font-bold text-sm">3</span>
+                    <span className="text-white font-bold text-base">3</span>
                   </div>
-                  <h3 className="text-base font-semibold text-zinc-900">
+                  <h3 className="text-lg font-semibold text-zinc-900">
                     Monitoring and Governance
                   </h3>
                 </div>
-                <ul className="space-y-3 text-sm text-zinc-700">
+                <ul className="space-y-3 text-base text-zinc-700">
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">KPIs are auto-tracked through CRM dashboards and validated monthly by Sales Heads and the CRO.</span>
@@ -485,7 +485,7 @@ export default function Sales() {
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">Insights from these reviews feed directly into sales coaching, forecasting, and quarterly goal setting.</span>
@@ -495,7 +495,7 @@ export default function Sales() {
 
               {/* Summary */}
               <div className="bg-orange-50 rounded-lg p-4 border border-orange-200 col-span-3">
-                <p className="text-sm text-zinc-900 italic">
+                <p className="text-base text-zinc-900 italic">
                   This integrated KPI framework drives accountability and aligns operational performance with financial outcomes.
                 </p>
               </div>
@@ -523,17 +523,17 @@ export default function Sales() {
               <div className="bg-white rounded-xl p-6 border border-zinc-200 shadow-sm hover:shadow-md transition-all duration-200 hover:border-[#fb5642] group">
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-8 h-8 rounded-lg bg-[#fb5642] flex items-center justify-center group-hover:bg-[#d94432] transition-colors">
-                    <span className="text-white font-bold text-sm">1</span>
+                    <span className="text-white font-bold text-base">1</span>
                   </div>
-                  <h3 className="text-base font-semibold text-zinc-900">
+                  <h3 className="text-lg font-semibold text-zinc-900">
                     Incentive Model
                   </h3>
                 </div>
-                <ul className="space-y-3 text-sm text-zinc-700">
+                <ul className="space-y-3 text-base text-zinc-700">
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">The model is purely commission-based, directly linked to realized deal value.</span>
@@ -541,7 +541,7 @@ export default function Sales() {
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">Commissions are calculated as a fixed percentage of closed revenues and processed post-client confirmation.</span>
@@ -553,17 +553,17 @@ export default function Sales() {
               <div className="bg-white rounded-xl p-6 border border-zinc-200 shadow-sm hover:shadow-md transition-all duration-200 hover:border-[#fb5642] group">
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-8 h-8 rounded-lg bg-[#fb5642] flex items-center justify-center group-hover:bg-[#d94432] transition-colors">
-                    <span className="text-white font-bold text-sm">2</span>
+                    <span className="text-white font-bold text-base">2</span>
                   </div>
-                  <h3 className="text-base font-semibold text-zinc-900">
+                  <h3 className="text-lg font-semibold text-zinc-900">
                     Team-Based Structure
                   </h3>
                 </div>
-                <ul className="space-y-3 text-sm text-zinc-700">
+                <ul className="space-y-3 text-base text-zinc-700">
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">Incentives are structured around team performance, fostering cooperation among Sales, Marketing, and Pre-Sales teams.</span>
@@ -571,7 +571,7 @@ export default function Sales() {
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">Targets are defined quarterly, reflecting both company-level and subsidiary-level priorities.</span>
@@ -581,7 +581,7 @@ export default function Sales() {
 
               {/* Summary */}
               <div className="bg-blue-50 rounded-lg p-4 border border-blue-200 col-span-2">
-                <p className="text-sm text-zinc-900 italic">
+                <p className="text-base text-zinc-900 italic">
                   This performance-linked structure ensures fairness, motivates collective achievement, and reinforces alignment to organizational objectives.
                 </p>
               </div>
@@ -607,66 +607,66 @@ export default function Sales() {
             <div className="space-y-6">
               {/* Stage Framework */}
               <div>
-                <h3 className="text-base font-semibold text-zinc-900 mb-4">
+                <h3 className="text-lg font-semibold text-zinc-900 mb-4">
                   1. Stage Framework
                 </h3>
                 <div className="space-y-4">
                   <div className="bg-zinc-50 rounded-lg p-4 border border-zinc-200">
                     <div className="flex items-start gap-3">
-                      <span className="flex items-center justify-center w-6 h-6 rounded-full bg-[#fb5642] text-white text-xs font-semibold shrink-0 mt-0.5">1</span>
+                      <span className="flex items-center justify-center w-6 h-6 rounded-full bg-[#fb5642] text-white text-sm font-semibold shrink-0 mt-0.5">1</span>
                       <div>
-                        <h4 className="text-sm font-semibold text-zinc-900 mb-1">Lead Qualification</h4>
-                        <p className="text-sm text-zinc-700">Based on ICP alignment and CRM verification.</p>
+                        <h4 className="text-base font-semibold text-zinc-900 mb-1">Lead Qualification</h4>
+                        <p className="text-base text-zinc-700">Based on ICP alignment and CRM verification.</p>
                       </div>
                     </div>
                   </div>
                   
                   <div className="bg-zinc-50 rounded-lg p-4 border border-zinc-200">
                     <div className="flex items-start gap-3">
-                      <span className="flex items-center justify-center w-6 h-6 rounded-full bg-[#fb5642] text-white text-xs font-semibold shrink-0 mt-0.5">2</span>
+                      <span className="flex items-center justify-center w-6 h-6 rounded-full bg-[#fb5642] text-white text-sm font-semibold shrink-0 mt-0.5">2</span>
                       <div>
-                        <h4 className="text-sm font-semibold text-zinc-900 mb-1">Discovery & Requirement Definition</h4>
-                        <p className="text-sm text-zinc-700">Conducted by Sales, often involving the CRO, BA, or Tech Lead.</p>
+                        <h4 className="text-base font-semibold text-zinc-900 mb-1">Discovery & Requirement Definition</h4>
+                        <p className="text-base text-zinc-700">Conducted by Sales, often involving the CRO, BA, or Tech Lead.</p>
                       </div>
                     </div>
                   </div>
                   
                   <div className="bg-zinc-50 rounded-lg p-4 border border-zinc-200">
                     <div className="flex items-start gap-3">
-                      <span className="flex items-center justify-center w-6 h-6 rounded-full bg-[#fb5642] text-white text-xs font-semibold shrink-0 mt-0.5">3</span>
+                      <span className="flex items-center justify-center w-6 h-6 rounded-full bg-[#fb5642] text-white text-sm font-semibold shrink-0 mt-0.5">3</span>
                       <div>
-                        <h4 className="text-sm font-semibold text-zinc-900 mb-1">Internal Evaluation (Go/No-Go)</h4>
-                        <p className="text-sm text-zinc-700">Formal review for complex or high-value projects; routine opportunities may be fast-tracked by the BDM.</p>
+                        <h4 className="text-base font-semibold text-zinc-900 mb-1">Internal Evaluation (Go/No-Go)</h4>
+                        <p className="text-base text-zinc-700">Formal review for complex or high-value projects; routine opportunities may be fast-tracked by the BDM.</p>
                       </div>
                     </div>
                   </div>
                   
                   <div className="bg-zinc-50 rounded-lg p-4 border border-zinc-200">
                     <div className="flex items-start gap-3">
-                      <span className="flex items-center justify-center w-6 h-6 rounded-full bg-[#fb5642] text-white text-xs font-semibold shrink-0 mt-0.5">4</span>
+                      <span className="flex items-center justify-center w-6 h-6 rounded-full bg-[#fb5642] text-white text-sm font-semibold shrink-0 mt-0.5">4</span>
                       <div>
-                        <h4 className="text-sm font-semibold text-zinc-900 mb-1">Solutioning & Proposal Creation</h4>
-                        <p className="text-sm text-zinc-700">Joint effort between Sales, BA, and Delivery for scoping and pricing.</p>
+                        <h4 className="text-base font-semibold text-zinc-900 mb-1">Solutioning & Proposal Creation</h4>
+                        <p className="text-base text-zinc-700">Joint effort between Sales, BA, and Delivery for scoping and pricing.</p>
                       </div>
                     </div>
                   </div>
                   
                   <div className="bg-zinc-50 rounded-lg p-4 border border-zinc-200">
                     <div className="flex items-start gap-3">
-                      <span className="flex items-center justify-center w-6 h-6 rounded-full bg-[#fb5642] text-white text-xs font-semibold shrink-0 mt-0.5">5</span>
+                      <span className="flex items-center justify-center w-6 h-6 rounded-full bg-[#fb5642] text-white text-sm font-semibold shrink-0 mt-0.5">5</span>
                       <div>
-                        <h4 className="text-sm font-semibold text-zinc-900 mb-1">Proposal Negotiation & Clarifications</h4>
-                        <p className="text-sm text-zinc-700">Managed via CRM-tracked communication logs ensuring version control.</p>
+                        <h4 className="text-base font-semibold text-zinc-900 mb-1">Proposal Negotiation & Clarifications</h4>
+                        <p className="text-base text-zinc-700">Managed via CRM-tracked communication logs ensuring version control.</p>
                       </div>
                     </div>
                   </div>
                   
                   <div className="bg-zinc-50 rounded-lg p-4 border border-zinc-200">
                     <div className="flex items-start gap-3">
-                      <span className="flex items-center justify-center w-6 h-6 rounded-full bg-[#fb5642] text-white text-xs font-semibold shrink-0 mt-0.5">6</span>
+                      <span className="flex items-center justify-center w-6 h-6 rounded-full bg-[#fb5642] text-white text-sm font-semibold shrink-0 mt-0.5">6</span>
                       <div>
-                        <h4 className="text-sm font-semibold text-zinc-900 mb-1">Project Handover</h4>
-                        <p className="text-sm text-zinc-700">Formal transition to Delivery upon client confirmation and contract execution.</p>
+                        <h4 className="text-base font-semibold text-zinc-900 mb-1">Project Handover</h4>
+                        <p className="text-base text-zinc-700">Formal transition to Delivery upon client confirmation and contract execution.</p>
                       </div>
                     </div>
                   </div>
@@ -677,17 +677,17 @@ export default function Sales() {
               <div className="bg-white rounded-xl p-6 border border-zinc-200 shadow-sm hover:shadow-md transition-all duration-200 hover:border-orange-300 group">
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-8 h-8 rounded-lg bg-[#fb5642] flex items-center justify-center group-hover:bg-[#d94432] transition-colors">
-                    <span className="text-white font-bold text-sm">2</span>
+                    <span className="text-white font-bold text-base">2</span>
                   </div>
-                  <h3 className="text-base font-semibold text-zinc-900">
+                  <h3 className="text-lg font-semibold text-zinc-900">
                     Governance and Roles
                   </h3>
                 </div>
-                <ul className="space-y-3 text-sm text-zinc-700">
+                <ul className="space-y-3 text-base text-zinc-700">
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed"><span className="font-semibold">Sales/BDM:</span> Opportunity ownership and client communication.</span>
@@ -695,7 +695,7 @@ export default function Sales() {
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed"><span className="font-semibold">CRO:</span> Strategic oversight and commercial validation.</span>
@@ -703,7 +703,7 @@ export default function Sales() {
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed"><span className="font-semibold">Delivery/Tech Lead:</span> Feasibility and estimation inputs.</span>
@@ -711,7 +711,7 @@ export default function Sales() {
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed"><span className="font-semibold">BA/Pre-Sales:</span> Documentation and solution articulation.</span>
@@ -721,7 +721,7 @@ export default function Sales() {
 
               {/* Summary */}
               <div className="bg-orange-50 rounded-lg p-4 border border-orange-200">
-                <p className="text-sm text-zinc-900 italic">
+                <p className="text-base text-zinc-900 italic">
                   This structured flow ensures agility without compromising governance or quality in client engagement.
                 </p>
               </div>
@@ -749,17 +749,17 @@ export default function Sales() {
               <div className="bg-white rounded-xl p-6 border border-zinc-200 shadow-sm hover:shadow-md transition-all duration-200 hover:border-[#fb5642] group">
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-8 h-8 rounded-lg bg-[#fb5642] flex items-center justify-center group-hover:bg-[#d94432] transition-colors">
-                    <span className="text-white font-bold text-sm">1</span>
+                    <span className="text-white font-bold text-base">1</span>
                   </div>
-                  <h3 className="text-base font-semibold text-zinc-900">
+                  <h3 className="text-lg font-semibold text-zinc-900">
                     Pricing Preparation
                   </h3>
                 </div>
-                <ul className="space-y-3 text-sm text-zinc-700">
+                <ul className="space-y-3 text-base text-zinc-700">
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">The Business Development Manager prepares the initial pricing based on estimates received through a detailed Work Breakdown Structure (WBS).</span>
@@ -767,7 +767,7 @@ export default function Sales() {
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">The WBS captures all modules, roles, estimated effort, and cost assumptions.</span>
@@ -779,17 +779,17 @@ export default function Sales() {
               <div className="bg-white rounded-xl p-6 border border-zinc-200 shadow-sm hover:shadow-md transition-all duration-200 hover:border-[#fb5642] group">
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-8 h-8 rounded-lg bg-[#fb5642] flex items-center justify-center group-hover:bg-[#d94432] transition-colors">
-                    <span className="text-white font-bold text-sm">2</span>
+                    <span className="text-white font-bold text-base">2</span>
                   </div>
-                  <h3 className="text-base font-semibold text-zinc-900">
+                  <h3 className="text-lg font-semibold text-zinc-900">
                     Validation and Approval
                   </h3>
                 </div>
-                <ul className="space-y-3 text-sm text-zinc-700">
+                <ul className="space-y-3 text-base text-zinc-700">
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">Pricing is reviewed internally for feasibility by Delivery or Technical Leads.</span>
@@ -797,7 +797,7 @@ export default function Sales() {
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">Any non-standard pricing, special discount, or deviation from margin norms requires CRO or CTO approval.</span>
@@ -805,7 +805,7 @@ export default function Sales() {
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">Business Development Managers are authorized to provide discounts up to <span className="font-semibold text-zinc-900">5%</span> without escalation.</span>
@@ -817,17 +817,17 @@ export default function Sales() {
               <div className="bg-white rounded-xl p-6 border border-zinc-200 shadow-sm hover:shadow-md transition-all duration-200 hover:border-[#fb5642] group">
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-8 h-8 rounded-lg bg-[#fb5642] flex items-center justify-center group-hover:bg-[#d94432] transition-colors">
-                    <span className="text-white font-bold text-sm">3</span>
+                    <span className="text-white font-bold text-base">3</span>
                   </div>
-                  <h3 className="text-base font-semibold text-zinc-900">
+                  <h3 className="text-lg font-semibold text-zinc-900">
                     Governance Intent
                   </h3>
                 </div>
-                <ul className="space-y-3 text-sm text-zinc-700">
+                <ul className="space-y-3 text-base text-zinc-700">
                   <li className="flex items-start gap-3">
                     <div className="mt-0.5 shrink-0">
                       <div className="w-5 h-5 rounded-full bg-[#fee2dd] border-2 border-[#fee2dd] flex items-center justify-center">
-                        <FiCheck className="text-[#fb5642] text-xs" />
+                        <FiCheck className="text-[#fb5642] text-sm" />
                       </div>
                     </div>
                     <span className="leading-relaxed">The process ensures transparency, profitability awareness, and controlled flexibility while maintaining competitiveness during deal negotiation.</span>
@@ -837,7 +837,7 @@ export default function Sales() {
 
               {/* Summary */}
               <div className="bg-blue-50 rounded-lg p-4 border border-blue-200 col-span-3">
-                <p className="text-sm text-zinc-900 italic">
+                <p className="text-base text-zinc-900 italic">
                   This method creates consistency across all proposals and reinforces alignment between commercial objectives and delivery realities.
                 </p>
               </div>
