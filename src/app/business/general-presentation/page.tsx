@@ -19,7 +19,7 @@ export default function GeneralPresentation() {
           <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm">
             <div className="flex items-center gap-3 mb-4">
               <div className="p-2 bg-orange-50 rounded-lg">
-                <FiFileText className="text-orange-600" />Q
+                <FiFileText className="text-orange-600" />
               </div>
               <h2 className="text-xl font-semibold text-zinc-900">
                 Company Information
@@ -36,7 +36,7 @@ export default function GeneralPresentation() {
                 <label className="block text-sm font-medium text-zinc-700 mb-1">
                   Founded in:
                 </label>
-                <p className="text-zinc-900">[To be provided]</p>
+                <p className="text-zinc-900">2000</p>
               </div>
               <div>
                 <label className="block text-sm font-medium text-zinc-700 mb-1">
@@ -65,10 +65,56 @@ export default function GeneralPresentation() {
             </div>
             <div className="space-y-4">
               <div>
-                <label className="block text-sm font-medium text-zinc-700 mb-1">
-                  HQ Address and additional offices:
+                <label className="block text-sm font-medium text-zinc-700 mb-2">
+                  Headquarters (India):
                 </label>
-                <p className="text-zinc-900">[To be provided]</p>
+                <p className="text-zinc-900 mb-4">
+                  C-136, Industrial Area, Phase 8,<br />
+                  Chandigarh, 160071<br />
+                  India
+                </p>
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-zinc-700 mb-2">
+                  Additional Offices:
+                </label>
+                <div className="grid lg:grid-cols-2 gap-3">
+                  <div className="bg-zinc-50 rounded-lg p-3 border border-zinc-200">
+                    <p className="text-sm font-semibold text-zinc-900 mb-1">Australia</p>
+                    <p className="text-sm text-zinc-700">
+                      Suite 4004, 11 Hassal St Parramatta,<br />
+                      NSW 2150, Australia
+                    </p>
+                  </div>
+                  <div className="bg-zinc-50 rounded-lg p-3 border border-zinc-200">
+                    <p className="text-sm font-semibold text-zinc-900 mb-1">Canada</p>
+                    <p className="text-sm text-zinc-700">
+                      17010, 103 Ave NW, Edmonton,<br />
+                      AB T5S 1K7, Canada
+                    </p>
+                  </div>
+                  <div className="bg-zinc-50 rounded-lg p-3 border border-zinc-200">
+                    <p className="text-sm font-semibold text-zinc-900 mb-1">United States</p>
+                    <p className="text-sm text-zinc-700">
+                      5858 Horton Street, Suite 101,<br />
+                      Emeryville, CA 94608, USA
+                    </p>
+                  </div>
+                  <div className="bg-zinc-50 rounded-lg p-3 border border-zinc-200">
+                    <p className="text-sm font-semibold text-zinc-900 mb-1">United Kingdom</p>
+                    <p className="text-sm text-zinc-700">
+                      97 Hackney Rd,<br />
+                      London E2 8ET, United Kingdom
+                    </p>
+                  </div>
+                  <div className="bg-zinc-50 rounded-lg p-3 border border-zinc-200">
+                    <p className="text-sm font-semibold text-zinc-900 mb-1">United Arab Emirates</p>
+                    <p className="text-sm text-zinc-700">
+                      Meydan Grandstand, 6th floor, Meydan Road,<br />
+                      Nad Al Sheba, Dubai, U.A.E
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
