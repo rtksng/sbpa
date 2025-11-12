@@ -54,6 +54,7 @@ const navigation: NavItem[] = [
           { name: 'Policies & Productivity', href: '/sales-and-hr/human-resources/hr-policy' },
           { name: 'Compensation', href: '/sales-and-hr/human-resources/compensation-policy' },
           { name: 'Staff Analysis', href: '/sales-and-hr/human-resources/staff-analysis' },
+          
         ],
       },
     ],
