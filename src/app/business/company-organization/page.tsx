@@ -15,16 +15,14 @@ const leadershipData = {
     imageSrc: '/employees-images/RP-Singh.png',
   },
   finance: [
-    { name: 'Sarabhjeet Singh', designation: 'CFO', experience: '27 Years', imageSrc: '/employees-images/Finance/sarbjeet-singh.png' },
     { name: 'Priyanka', designation: 'AR Manager', experience: '12+ Years', imageSrc: '/employees-images/Finance/Priyanka.png' },
     { name: 'Suresh Kumar', designation: 'Payroll Manager', experience: '40+ Years', imageSrc: '/employees-images/Finance/Suresh-Kumar.png' },
     { name: 'Ritu', designation: 'Accounting Manager', experience: '20+ Years', imageSrc: '/employees-images/Finance/Ritu.png' },
   ],
   hr: [
     { name: 'Dr. Harpreet Kaur', designation: 'Director HR & Admin', experience: '26 Years', imageSrc: '/employees-images/HR/Harpreet-Kaur.png' },
-    { name: 'Ramanpreet Kaur', designation: 'Manager', experience: '7+ Years', imageSrc: '/employees-images/HR/Ramanpreet-Kaur.png' },
-    { name: 'Gurmeet', designation: 'Assist. Manager', experience: '3 Years', imageSrc: '/employees-images/HR/Gurmeet.png' },
     { name: 'Deepak', designation: 'Manager Admin', experience: '20 Years', imageSrc: '/employees-images/HR/Deepak.png' },
+    { name: 'Rachita Mathur', designation: 'Manager Admin', experience: '20 Years', imageSrc: '/employees-images/HR/Deepak.png' },
   ],
   engineering: [
     // First Column (8 members)
@@ -49,34 +47,32 @@ const leadershipData = {
     { name: 'Vivek Rana', designation: 'Manager Open Source', experience: '12+ Years', imageSrc: '/employees-images/Engineering/Vivek-Rana.png' },
     { name: 'Arun Randev', designation: 'Manager Java', experience: '17 Years', imageSrc: '/employees-images/Engineering/Arun-Randev.png' },
     { name: 'Harjodh', designation: 'Head COE Cloud Computing', experience: '12 years', imageSrc: '/employees-images/Engineering/Harjodh.png' },
-    { name: 'Ashish Gosain', designation: 'Project Manager', experience: '10 Years', imageSrc: '/employees-images/Engineering/Ashish-Gosain .png' },
-    { name: 'Shreya', designation: 'Project Manager', experience: '8 Years', imageSrc: '/employees-images/Engineering/Shreya.png' },
     { name: 'Charanjeet Singh', designation: 'System Architect', experience: '12 Years', imageSrc: '/employees-images/Engineering/Charanjeet-Singh.png' },
     { name: 'Aman Badan', designation: 'Project Manager', experience: '11 Years', imageSrc: '/employees-images/Engineering/Aman-Badan.png' },
+    { name: 'Amarjeet Singh', designation: 'Project Manager', experience: '11 Years', imageSrc: '/employees-images/Engineering/Aman-Badan.png' },
   ],
   it: [
     { name: 'JB', designation: 'CIO', experience: '24 Years', imageSrc: '/employees-images/IT/JB.png' },
     { name: 'Saurav Sharma', designation: 'AVP IT', experience: '17+ Years', imageSrc: '/employees-images/IT/Saurav-Sharma.png' },
   ],
   salesMarketing: [
-    { name: 'Anil Rana', designation: 'CMO', experience: '17+ Years', imageSrc: '/employees-images/Sales-Marketing/Anil-Rana.png' },
+    { name: 'Anil Rana', designation: 'CRO', experience: '17+ Years', imageSrc: '/employees-images/Sales-Marketing/Anil-Rana.png' },
     { name: 'Amandeep Arora', designation: 'AVP-Sales', experience: '12 Years', imageSrc: '/employees-images/Sales-Marketing/Amandeep-Arora.png' },
     { name: 'Gurkirat', designation: 'BD Manager', experience: '11 Years', imageSrc: '/employees-images/Sales-Marketing/Gurkirat.png' },
     { name: 'RJ', designation: 'Sr. Manager', experience: '9 Years', imageSrc: '/employees-images/Sales-Marketing/RJ.png' },
-    { name: 'Surmukh', designation: 'BD Manager', experience: '8 Years', imageSrc: '/employees-images/Sales-Marketing/Surmukh.png' },
-    { name: 'Satnam', designation: 'BD Manager', experience: '10 Years', imageSrc: '/employees-images/Sales-Marketing/Satnam.png' },
     { name: 'Anish', designation: 'Asst. Manager Digital Marketing', experience: '7 Years', imageSrc: '/employees-images/Sales-Marketing/Anish.png' },
-    { name: 'Mahak Sharma', designation: 'Manager Digital Marketing', experience: '6+ Years', imageSrc: '/employees-images/Sales-Marketing/Mahak-Sharma.png' },
     { name: 'Kawleen', designation: 'Manager Market Research', experience: '11 Years', imageSrc: '/employees-images/Sales-Marketing/Kawleen.png' },
     { name: 'Simran Dhawan', designation: 'Manager Content Strategy', experience: '6 Years', imageSrc: '/employees-images/Sales-Marketing/Simran-Dhawan.png' },
     { name: 'Minkle', designation: 'Manager Organic Marketing', experience: '6 Years', imageSrc: '/employees-images/Sales-Marketing/MinkleKalara.png' },
-    { name: 'Shelly', designation: 'Manager SEO', experience: '9+ Years', imageSrc: '/employees-images/Sales-Marketing/Shelly.png' },
     { name: 'Palak', designation: 'Manager Lead Generation', experience: '6 Years', imageSrc: '/employees-images/Sales-Marketing/Palakjot-Kaur.png' },
+    { name: 'Pavtrarita', designation: 'Manager Lead Generation', experience: '6 Years', imageSrc: '/employees-images/Sales-Marketing/Palakjot-Kaur.png' },
   ],
   uiux: [
     { name: 'Abhishek Vasudev', designation: 'CCO', experience: '18 Years', imageSrc: '/employees-images/UI-UX/Abhishek-Vasudev.png' },
     { name: 'Nitesh Attri', designation: 'Asst. Manager UI/UX', experience: '13+ Years', imageSrc: '/employees-images/UI-UX/Nitesh-Attri.png' },
-    { name: 'Ravikant', designation: 'Asst. Manager Front-End Design', experience: '8+ Years', imageSrc: '/employees-images/UI-UX/Ravikant.png' },
+    { name: 'Shavinder Bains', designation: 'Team Lead', experience: '12+ Years', imageSrc: '/employees-images/UI-UX/Nitesh-Attri.png' },
+    { name: 'Raman Shant', designation: 'Team Lead', experience: '6+ Years', imageSrc: '/employees-images/UI-UX/Nitesh-Attri.png' },
+    { name: 'Manzeer Walia', designation: 'Team Lead', experience: '13+ Years', imageSrc: '/employees-images/UI-UX/Nitesh-Attri.png' },
   ],
 };
 
@@ -288,14 +284,325 @@ export default function CompanyOrganization() {
             <p className="text-zinc-600 mb-4">
               Explain the main roles of each member of the management team, and if they are billable to clients or not.
             </p>
-            
-            <div className="bg-zinc-50 rounded-lg p-4 border border-zinc-200">
-              <p className="text-zinc-900">[Management team details to be provided]</p>
-              <div className="mt-4 space-y-3">
-                <div className="border-b border-zinc-200 pb-2">
-                  <p className="text-base font-medium text-zinc-900">Role: [To be provided]</p>
-                  <p className="text-base text-zinc-600">Main Responsibilities: [To be provided]</p>
-                  <p className="text-base text-zinc-600">Billable to Clients: [Yes/No]</p>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {/* RP Singh - CEO */}
+              <div className="bg-white rounded-lg p-5 border border-zinc-200 shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col h-full">
+                <div className="flex items-center gap-4 mb-5 pb-5 border-b-2 border-zinc-300">
+                  <div className="w-20 h-20 rounded-full overflow-hidden bg-zinc-100 shrink-0 ring-2 ring-zinc-200">
+                    <Image
+                      src="/employees-images/RP-Singh.png"
+                      alt="RP Singh"
+                      width={80}
+                      height={80}
+                      quality={100}
+                      className="w-full h-full object-cover"
+                      unoptimized
+                    />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-base font-semibold text-zinc-900 mb-1">
+                      RP Singh – Chief Executive Officer (CEO)
+                    </h3>
+                  </div>
+                </div>
+                <div className="space-y-2 mb-5 pb-5 border-b-2 border-zinc-300 flex-1">
+                  <p className="text-sm font-medium text-zinc-700">Main Responsibilities:</p>
+                  <ul className="text-base text-zinc-600 list-disc list-inside space-y-1 ml-2">
+                    <li>Defines Seasia's long-term vision, growth strategy, and market direction.</li>
+                    <li>Oversees global operations, delivery excellence, and client satisfaction.</li>
+                    <li>Leads innovation, partnerships, and process governance (CMMI Level 5).</li>
+                  </ul>
+                </div>
+                <div className="mt-auto pt-4 space-y-3">
+                  <div className="flex items-center gap-2">
+                    <span className="text-base text-zinc-600">Billable to Clients:</span>
+                    <span className="text-base text-zinc-900 font-medium">❌ No – Strategic and governance role</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-base text-zinc-600">🟢 Leadership Focus:</span>
+                    <span className="text-base text-zinc-900 font-medium">Vision | Strategy | Organizational Excellence</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Ganesh Verma - CTO */}
+              <div className="bg-white rounded-lg p-5 border border-zinc-200 shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col h-full">
+                <div className="flex items-center gap-4 mb-5 pb-5 border-b-2 border-zinc-300">
+                  <div className="w-20 h-20 rounded-full overflow-hidden bg-zinc-100 shrink-0 ring-2 ring-zinc-200">
+                    <Image
+                      src="/employees-images/Engineering/Ganesh-Verma.png"
+                      alt="Ganesh Verma"
+                      width={80}
+                      height={80}
+                      quality={100}
+                      className="w-full h-full object-cover"
+                      unoptimized
+                    />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-base font-semibold text-zinc-900 mb-1">
+                      Ganesh Verma – Chief Technology Officer (CTO)
+                    </h3>
+                  </div>
+                </div>
+                <div className="space-y-2 mb-5 pb-5 border-b-2 border-zinc-300 flex-1">
+                  <p className="text-sm font-medium text-zinc-700">Main Responsibilities:</p>
+                  <ul className="text-base text-zinc-600 list-disc list-inside space-y-1 ml-2">
+                    <li>Leads Seasia's technology vision and product architecture strategy.</li>
+                    <li>Oversees cloud, AI/ML, and data engineering practices.</li>
+                    <li>Guides technical leadership teams across all subsidiaries and verticals.</li>
+                  </ul>
+                </div>
+                <div className="mt-auto pt-4 space-y-3">
+                  <div className="flex items-center gap-2">
+                    <span className="text-base text-zinc-600">Billable to Clients:</span>
+                    <span className="text-base text-zinc-900 font-medium">❌ Partial – Strategic technology leadership role</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-base text-zinc-600">🟢 Leadership Focus:</span>
+                    <span className="text-base text-zinc-900 font-medium">Architecture | Innovation | Technology Strategy</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Yashu Kapila - CQO */}
+              <div className="bg-white rounded-lg p-5 border border-zinc-200 shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col h-full">
+                <div className="flex items-center gap-4 mb-5 pb-5 border-b-2 border-zinc-300">
+                  <div className="w-20 h-20 rounded-full overflow-hidden bg-zinc-100 shrink-0 ring-2 ring-zinc-200">
+                    <Image
+                      src="/employees-images/Engineering/yashu-kapila.png"
+                      alt="Yashu Kapila"
+                      width={80}
+                      height={80}
+                      quality={100}
+                      className="w-full h-full object-cover"
+                      unoptimized
+                    />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-base font-semibold text-zinc-900 mb-1">
+                      Yashu Kapila – Chief Quality Officer (CQO)
+                    </h3>
+                  </div>
+                </div>
+                <div className="space-y-2 mb-5 pb-5 border-b-2 border-zinc-300 flex-1">
+                  <p className="text-sm font-medium text-zinc-700">Main Responsibilities:</p>
+                  <ul className="text-base text-zinc-600 list-disc list-inside space-y-1 ml-2">
+                    <li>Heads Seasia's Quality Assurance (QA) and testing functions globally.</li>
+                    <li>Ensures process maturity, standardization, and compliance across projects.</li>
+                    <li>Drives QA automation, security testing, and performance engineering excellence.</li>
+                  </ul>
+                </div>
+                <div className="mt-auto pt-4 space-y-3">
+                  <div className="flex items-center gap-2">
+                    <span className="text-base text-zinc-600">Billable to Clients:</span>
+                    <span className="text-base text-zinc-900 font-medium">❌ Partial – Quality and governance oversight role</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-base text-zinc-600">🟢 Leadership Focus:</span>
+                    <span className="text-base text-zinc-900 font-medium">QA Strategy | Process Governance | Delivery Quality</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Anil Rana - CRO */}
+              <div className="bg-white rounded-lg p-5 border border-zinc-200 shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col h-full">
+                <div className="flex items-center gap-4 mb-5 pb-5 border-b-2 border-zinc-300">
+                  <div className="w-20 h-20 rounded-full overflow-hidden bg-zinc-100 shrink-0 ring-2 ring-zinc-200">
+                    <Image
+                      src="/employees-images/Sales-Marketing/Anil-Rana.png"
+                      alt="Anil Rana"
+                      width={80}
+                      height={80}
+                      quality={100}
+                      className="w-full h-full object-cover"
+                      unoptimized
+                    />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-base font-semibold text-zinc-900 mb-1">
+                      Anil Rana – Chief Revenue Officer (CRO)
+                    </h3>
+                  </div>
+                </div>
+                <div className="space-y-2 mb-5 pb-5 border-b-2 border-zinc-300 flex-1">
+                  <p className="text-sm font-medium text-zinc-700">Main Responsibilities:</p>
+                  <ul className="text-base text-zinc-600 list-disc list-inside space-y-1 ml-2">
+                    <li>Leads global sales, marketing, and revenue strategy functions.</li>
+                    <li>Defines GTM (Go-to-Market) plans, partnership channels, and client engagement frameworks.</li>
+                    <li>Oversees business growth, pipeline management, and subsidiary alignment.</li>
+                  </ul>
+                </div>
+                <div className="mt-auto pt-4 space-y-3">
+                  <div className="flex items-center gap-2">
+                    <span className="text-base text-zinc-600">Billable to Clients:</span>
+                    <span className="text-base text-zinc-900 font-medium">❌ No – Business leadership and client strategy role</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-base text-zinc-600">🟢 Leadership Focus:</span>
+                    <span className="text-base text-zinc-900 font-medium">Growth | Partnerships | Market Development</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Amardeep Pundir - Head of Delivery */}
+              <div className="bg-white rounded-lg p-5 border border-zinc-200 shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col h-full">
+                <div className="flex items-center gap-4 mb-5 pb-5 border-b-2 border-zinc-300">
+                  <div className="w-20 h-20 rounded-full overflow-hidden bg-zinc-100 shrink-0 ring-2 ring-zinc-200">
+                    <Image
+                      src="/employees-images/Engineering/Amardeep-Pundir.png"
+                      alt="Amardeep Pundir"
+                      width={80}
+                      height={80}
+                      quality={100}
+                      className="w-full h-full object-cover"
+                      unoptimized
+                    />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-base font-semibold text-zinc-900 mb-1">
+                      Amardeep Pundir – Head of Delivery
+                    </h3>
+                  </div>
+                </div>
+                <div className="space-y-2 mb-5 pb-5 border-b-2 border-zinc-300 flex-1">
+                  <p className="text-sm font-medium text-zinc-700">Main Responsibilities:</p>
+                  <ul className="text-base text-zinc-600 list-disc list-inside space-y-1 ml-2">
+                    <li>Owns global delivery governance, ensuring on-time, high-quality execution.</li>
+                    <li>Manages program delivery, resource allocation, and project performance KPIs.</li>
+                    <li>Drives efficiency through agile best practices and operational automation.</li>
+                  </ul>
+                </div>
+                <div className="mt-auto pt-4 space-y-3">
+                  <div className="flex items-center gap-2">
+                    <span className="text-base text-zinc-600">Billable to Clients:</span>
+                    <span className="text-base text-zinc-900 font-medium">❌ Partial – Program oversight role</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-base text-zinc-600">🟢 Leadership Focus:</span>
+                    <span className="text-base text-zinc-900 font-medium">Delivery Excellence | Efficiency | Execution Governance</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Abhishek Vasudev - CCO */}
+              <div className="bg-white rounded-lg p-5 border border-zinc-200 shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col h-full">
+                <div className="flex items-center gap-4 mb-5 pb-5 border-b-2 border-zinc-300">
+                  <div className="w-20 h-20 rounded-full overflow-hidden bg-zinc-100 shrink-0 ring-2 ring-zinc-200">
+                    <Image
+                      src="/employees-images/UI-UX/Abhishek-Vasudev.png"
+                      alt="Abhishek Vasudev"
+                      width={80}
+                      height={80}
+                      quality={100}
+                      className="w-full h-full object-cover"
+                      unoptimized
+                    />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-base font-semibold text-zinc-900 mb-1">
+                      Abhishek Vasudev – Chief Creative Officer (CCO)
+                    </h3>
+                  </div>
+                </div>
+                <div className="space-y-2 mb-5 pb-5 border-b-2 border-zinc-300 flex-1">
+                  <p className="text-sm font-medium text-zinc-700">Main Responsibilities:</p>
+                  <ul className="text-base text-zinc-600 list-disc list-inside space-y-1 ml-2">
+                    <li>Leads Seasia's in-house UI/UX Design Studio and Creative Division.</li>
+                    <li>Oversees product experience, design systems, and brand identity solutions.</li>
+                    <li>Collaborates with Marketing and Sales on client-facing digital experience strategies.</li>
+                  </ul>
+                </div>
+                <div className="mt-auto pt-4 space-y-3">
+                  <div className="flex items-center gap-2">
+                    <span className="text-base text-zinc-600">Billable to Clients:</span>
+                    <span className="text-base text-zinc-900 font-medium">❌ Partial – Leadership and design innovation role</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-base text-zinc-600">🟢 Leadership Focus:</span>
+                    <span className="text-base text-zinc-900 font-medium">Design Strategy | User Experience | Brand Innovation</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Jatinder Bawa - CIO */}
+              <div className="bg-white rounded-lg p-5 border border-zinc-200 shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col h-full">
+                <div className="flex items-center gap-4 mb-5 pb-5 border-b-2 border-zinc-300">
+                  <div className="w-20 h-20 rounded-full overflow-hidden bg-zinc-100 shrink-0 ring-2 ring-zinc-200">
+                    <Image
+                      src="/employees-images/IT/JB.png"
+                      alt="Jatinder Bawa"
+                      width={80}
+                      height={80}
+                      quality={100}
+                      className="w-full h-full object-cover"
+                      unoptimized
+                    />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-base font-semibold text-zinc-900 mb-1">
+                      Jatinder Bawa – Chief Information Officer (CIO)
+                    </h3>
+                  </div>
+                </div>
+                <div className="space-y-2 mb-5 pb-5 border-b-2 border-zinc-300 flex-1">
+                  <p className="text-sm font-medium text-zinc-700">Main Responsibilities:</p>
+                  <ul className="text-base text-zinc-600 list-disc list-inside space-y-1 ml-2">
+                    <li>Manages Seasia's internal IT infrastructure, cybersecurity, and systems integration.</li>
+                    <li>Ensures business continuity, network resilience, and compliance with data regulations.</li>
+                    <li>Supports technology modernization and IT governance initiatives.</li>
+                  </ul>
+                </div>
+                <div className="mt-auto pt-4 space-y-3">
+                  <div className="flex items-center gap-2">
+                    <span className="text-base text-zinc-600">Billable to Clients:</span>
+                    <span className="text-base text-zinc-900 font-medium">❌ No – Internal systems and infrastructure role</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-base text-zinc-600">🟢 Leadership Focus:</span>
+                    <span className="text-base text-zinc-900 font-medium">IT Governance | Infrastructure | Security</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Dr. Harpreet Kaur - Director HR & Administration */}
+              <div className="bg-white rounded-lg p-5 border border-zinc-200 shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col h-full">
+                <div className="flex items-center gap-4 mb-5 pb-5 border-b-2 border-zinc-300">
+                  <div className="w-20 h-20 rounded-full overflow-hidden bg-zinc-100 shrink-0 ring-2 ring-zinc-200">
+                    <Image
+                      src="/employees-images/HR/Harpreet-Kaur.png"
+                      alt="Dr. Harpreet Kaur"
+                      width={80}
+                      height={80}
+                      quality={100}
+                      className="w-full h-full object-cover"
+                      unoptimized
+                    />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-base font-semibold text-zinc-900 mb-1">
+                      Dr. Harpreet Kaur – Director, HR & Administration
+                    </h3>
+                  </div>
+                </div>
+                <div className="space-y-2 mb-5 pb-5 border-b-2 border-zinc-300 flex-1">
+                  <p className="text-sm font-medium text-zinc-700">Main Responsibilities:</p>
+                  <ul className="text-base text-zinc-600 list-disc list-inside space-y-1 ml-2">
+                    <li>Leads Seasia's global human resource strategy and organizational development.</li>
+                    <li>Oversees recruitment, training, talent management, and workplace culture.</li>
+                    <li>Manages administration, compliance, and people engagement initiatives.</li>
+                  </ul>
+                </div>
+                <div className="mt-auto pt-4 space-y-3">
+                  <div className="flex items-center gap-2">
+                    <span className="text-base text-zinc-600">Billable to Clients:</span>
+                    <span className="text-base text-zinc-900 font-medium">❌ No – Human capital and organizational leadership role</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-base text-zinc-600">🟢 Leadership Focus:</span>
+                    <span className="text-base text-zinc-900 font-medium">People Strategy | HR Development | Organizational Culture</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -316,7 +623,7 @@ export default function CompanyOrganization() {
             <p className="text-zinc-600 mb-4">
               Describe the sales management model: commercial meeting, coaching, sales reporting process, operational KPIs.
             </p>
-           
+
 
             <div className="space-y-4">
               <div className="bg-zinc-50 rounded-lg p-4 border border-zinc-200">
