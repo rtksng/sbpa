@@ -34,7 +34,7 @@ export default function GeneralPresentation() {
                   <label className="block text-lg font-medium text-zinc-500 mb-1 uppercase tracking-wide">
                     Company Name
                   </label>
-                  <p className="text-lg font-semibold text-zinc-900">Seasia Infotech</p>
+                  <p className="text-lg font-semibold text-zinc-900">Seasia Group (Seasia Infotech, Bugraptors, Mooglelabs)</p>
                 </div>
               </div>
               <div className="flex items-start gap-3 p-3 bg-zinc-50 rounded-lg border border-zinc-100 hover:bg-zinc-100 transition-colors">
@@ -112,18 +112,7 @@ export default function GeneralPresentation() {
                   Additional Offices
                 </label>
                 <div className="grid lg:grid-cols-2 gap-3">
-                  <div className="bg-white rounded-lg p-3 border border-zinc-200 hover:border-[#fb5642]/30 hover:shadow-sm transition-all group">
-                    <div className="flex items-center gap-2 mb-2">
-                      <div className="p-1 bg-[#fb5642]/10 rounded">
-                        <FiGlobe className="text-[#fb5642] group-hover:scale-110 transition-transform" size={14} />
-                      </div>
-                      <p className="text-lg font-semibold text-zinc-900">Australia</p>
-                    </div>
-                    <p className="text-lg text-zinc-600 leading-relaxed">
-                      Suite 4004, 11 Hassal St Parramatta,<br />
-                      NSW 2150, Australia
-                    </p>
-                  </div>
+                  
                   <div className="bg-white rounded-lg p-3 border border-zinc-200 hover:border-[#fb5642]/30 hover:shadow-sm transition-all group">
                     <div className="flex items-center gap-2 mb-2">
                       <div className="p-1 bg-[#fb5642]/10 rounded">
@@ -136,31 +125,7 @@ export default function GeneralPresentation() {
                       AB T5S 1K7, Canada
                     </p>
                   </div>
-                  <div className="bg-white rounded-lg p-3 border border-zinc-200 hover:border-[#fb5642]/30 hover:shadow-sm transition-all group">
-                    <div className="flex items-center gap-2 mb-2">
-                      <div className="p-1 bg-[#fb5642]/10 rounded">
-                        <FiGlobe className="text-[#fb5642] group-hover:scale-110 transition-transform" size={14} />
-                      </div>
-                      <p className="text-lg font-semibold text-zinc-900">United States</p>
-                    </div>
-                    <p className="text-lg text-zinc-600 leading-relaxed">
-                      5858 Horton Street, Suite 101,<br />
-                      Emeryville, CA 94608, USA
-                    </p>
-                  </div>
-                  <div className="bg-white rounded-lg p-3 border border-zinc-200 hover:border-[#fb5642]/30 hover:shadow-sm transition-all group">
-                    <div className="flex items-center gap-2 mb-2">
-                      <div className="p-1 bg-[#fb5642]/10 rounded">
-                        <FiGlobe className="text-[#fb5642] group-hover:scale-110 transition-transform" size={14} />
-                      </div>
-                      <p className="text-lg font-semibold text-zinc-900">United Kingdom</p>
-                    </div>
-                    <p className="text-lg text-zinc-600 leading-relaxed">
-                      97 Hackney Rd,<br />
-                      London E2 8ET, United Kingdom
-                    </p>
-                  </div>
-                  <div className="bg-white rounded-lg p-3 border border-zinc-200 hover:border-[#fb5642]/30 hover:shadow-sm transition-all group lg:col-span-2">
+                  <div className="bg-white rounded-lg p-3 border border-zinc-200 hover:border-[#fb5642]/30 hover:shadow-sm transition-all group ">
                     <div className="flex items-center gap-2 mb-2">
                       <div className="p-1 bg-[#fb5642]/10 rounded">
                         <FiGlobe className="text-[#fb5642] group-hover:scale-110 transition-transform" size={14} />
@@ -193,8 +158,7 @@ export default function GeneralPresentation() {
             <div>
               <h3 className="text-lg font-semibold text-zinc-900 mb-3">Overview</h3>
               <p className="text-zinc-600 leading-relaxed">
-                Seasia Infotech is a <strong>CMMI Level 5–certified digital engineering and IT services firm</strong> that delivers end-to-end technology solutions — from concept to deployment — through a balanced mix of engineering, design, and strategy.
-              </p>
+              Seasia Group possesses deep-rooted expertise in digital product engineering and AI-first service lines, the Group empowers businesses through end-to-end outsourced product development, AI-augmented quality engineering, and next-gen AI solutions including GenAI, AI/ML consulting, and intelligent automation. This future-ready capability enables the Group to consistently compete with industry giants. Its AI-driven methodology serves as a blueprint to conceptualize, scale, and launch innovative digital products faster and more efficiently.              </p>
             </div>
 
             {/* Core Activities */}
@@ -406,8 +370,8 @@ export default function GeneralPresentation() {
         </div>
 
         {/* Leadership and Staff */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
-          <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm">
+        <div className="grid grid-cols-1  gap-6 mb-6">
+          {/* <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm">
             <div className="flex items-center gap-3 mb-4">
               <div className="p-2 bg-orange-50 rounded-lg">
                 <FiUsers className="text-orange-600" />
@@ -419,7 +383,7 @@ export default function GeneralPresentation() {
             <div className="space-y-2">
               <p className="text-zinc-600 text-lg">[To be provided]</p>
             </div>
-          </div>
+          </div> */}
 
           <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm">
             <div className="flex items-center gap-3 mb-4">
@@ -442,7 +406,7 @@ export default function GeneralPresentation() {
             </Link>
           </div>
 
-          <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm">
+          {/* <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm">
             <div className="flex items-center gap-3 mb-4">
               <div className="p-2 bg-orange-50 rounded-lg">
                 <FiUsers className="text-orange-600" />
@@ -457,7 +421,7 @@ export default function GeneralPresentation() {
               </p>
               <p className="text-zinc-600 text-lg">[To be provided]</p>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Staff Information */}
@@ -525,14 +489,14 @@ export default function GeneralPresentation() {
               Areas of Expertise and Core Business
             </h2>
           </div>
-          <div className="mb-6">
+          {/* <div className="mb-6">
             <p className="text-zinc-600 leading-relaxed mb-4">
               Seasia Infotech is a <strong>CMMI Level 5–certified digital engineering and IT services firm</strong> that delivers end-to-end technology solutions — from concept to deployment — through a balanced mix of engineering, design, and strategy.
             </p>
             <p className="text-zinc-600 leading-relaxed">
               Its core business areas include:
             </p>
-          </div>
+          </div> */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <div className="bg-white rounded-lg p-4 border border-zinc-200 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-3 mb-2">

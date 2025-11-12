@@ -38,7 +38,7 @@ const navigation: NavItem[] = [
     children: [
       { name: 'Overview', href: '/business/general-presentation' },
       { name: 'Organization', href: '/business/company-organization' },
-      { name: 'Financial Plan', href: '/business/key-financial-information' },
+      // { name: 'Financial Plan', href: '/business/key-financial-information' },
       { name: 'Project Margin', href: '/business/project-financials' },
     ]
   },
@@ -58,48 +58,48 @@ const navigation: NavItem[] = [
       },
     ],
   },
-  {
-    name: 'Finance',
-    icon: <FiBriefcase />,
-    children: [
-      { name: 'Overview', href: '/finance-department/presentation-and-organization' },
-      { name: 'Auditors & CPA', href: '/finance-department/auditors-and-external-cpa' },
-      { name: 'Reporting & Calendar', href: '/finance-department/financial-reporting-and-financial-calendar' },
-      { name: 'FPP Monitoring', href: '/finance-department/monitoring-procedure-fixed-price-contracts' },
-      { name: 'Sales Admin', href: '/finance-department/sales-administration-process' },
-      { name: 'Credit & Payments', href: '/finance-department/client-credit-control-and-payment-terms' },
-    ]
-  },
+  // {
+  //   name: 'Finance',
+  //   icon: <FiBriefcase />,
+  //   children: [
+  //     { name: 'Overview', href: '/finance-department/presentation-and-organization' },
+  //     { name: 'Auditors & CPA', href: '/finance-department/auditors-and-external-cpa' },
+  //     { name: 'Reporting & Calendar', href: '/finance-department/financial-reporting-and-financial-calendar' },
+  //     { name: 'FPP Monitoring', href: '/finance-department/monitoring-procedure-fixed-price-contracts' },
+  //     { name: 'Sales Admin', href: '/finance-department/sales-administration-process' },
+  //     { name: 'Credit & Payments', href: '/finance-department/client-credit-control-and-payment-terms' },
+  //   ]
+  // },
   
-  {
-    name: 'Information Systems',
-    icon: <FiSettings />,
-    children: [
-      { name: 'Overview', href: '/information-systems/presentation-and-organization' },
-      { name: 'Tools & Infrastructure', href: '/information-systems/it-tools-and-infrastructure' },
-    ]
-  },
+  // {
+  //   name: 'Information Systems',
+  //   icon: <FiSettings />,
+  //   children: [
+  //     { name: 'Overview', href: '/information-systems/presentation-and-organization' },
+  //     { name: 'Tools & Infrastructure', href: '/information-systems/it-tools-and-infrastructure' },
+  //   ]
+  // },
   
-  {
-    name: 'Financials',
-    icon: <FiBarChart2 />,
-    children: [
-      { name: 'P&L', href: '/financials/pl-analysis' },
-      { name: 'Balance Sheet', href: '/financials/balance-sheet-analysis' },
-    ]
-  },
+  // {
+  //   name: 'Financials',
+  //   icon: <FiBarChart2 />,
+  //   children: [
+  //     { name: 'P&L', href: '/financials/pl-analysis' },
+  //     { name: 'Balance Sheet', href: '/financials/balance-sheet-analysis' },
+  //   ]
+  // },
   
-  {
-    name: 'Legal & Tax',
-    icon: <FiFileText />,
-    children: [
-      { name: 'Governance', href: '/legal-and-tax/legal-structure-and-governance' },
-      { name: 'Litigation & Risk', href: '/legal-and-tax/litigations-and-risk-management' },
-      { name: 'IP', href: '/legal-and-tax/intellectual-property' },
-      { name: 'Tax', href: '/legal-and-tax/tax' },
-      { name: 'Leases', href: '/legal-and-tax/leases' },
-    ]
-  }
+  // {
+  //   name: 'Legal & Tax',
+  //   icon: <FiFileText />,
+  //   children: [
+  //     { name: 'Governance', href: '/legal-and-tax/legal-structure-and-governance' },
+  //     { name: 'Litigation & Risk', href: '/legal-and-tax/litigations-and-risk-management' },
+  //     { name: 'IP', href: '/legal-and-tax/intellectual-property' },
+  //     { name: 'Tax', href: '/legal-and-tax/tax' },
+  //     { name: 'Leases', href: '/legal-and-tax/leases' },
+  //   ]
+  // }
   
 ];
 

@@ -49,7 +49,7 @@ const leadershipData = {
     { name: 'Harjodh', designation: 'Head COE Cloud Computing', experience: '12 years', imageSrc: '/employees-images/Engineering/Harjodh.png' },
     { name: 'Charanjeet Singh', designation: 'System Architect', experience: '12 Years', imageSrc: '/employees-images/Engineering/Charanjeet-Singh.png' },
     { name: 'Aman Badan', designation: 'Project Manager', experience: '11 Years', imageSrc: '/employees-images/Engineering/Aman-Badan.png' },
-    { name: 'Amarjeet Singh', designation: 'Project Manager', experience: '11 Years', imageSrc: '/employees-images/Engineering/Aman-Badan.png' },
+    // { name: 'Amarjeet Singh', designation: 'Project Manager', experience: '11 Years', imageSrc: '/employees-images/Engineering/Aman-Badan.png' },
   ],
   it: [
     { name: 'JB', designation: 'CIO', experience: '24 Years', imageSrc: '/employees-images/IT/JB.png' },
@@ -317,7 +317,7 @@ export default function CompanyOrganization() {
                 <div className="mt-auto pt-4 space-y-3">
                   <div className="flex items-center gap-2">
                     <span className="text-base text-zinc-600">Billable to Clients:</span>
-                    <span className="text-base text-zinc-900 font-medium">❌ No – Strategic and governance role</span>
+                    <span className="text-base text-zinc-900 font-medium"> No – Strategic and governance role</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="text-base text-zinc-600">🟢 Leadership Focus:</span>
@@ -357,7 +357,7 @@ export default function CompanyOrganization() {
                 <div className="mt-auto pt-4 space-y-3">
                   <div className="flex items-center gap-2">
                     <span className="text-base text-zinc-600">Billable to Clients:</span>
-                    <span className="text-base text-zinc-900 font-medium">❌ Partial – Strategic technology leadership role</span>
+                    <span className="text-base text-zinc-900 font-medium"> Partial – Strategic technology leadership role</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="text-base text-zinc-600">🟢 Leadership Focus:</span>
@@ -397,7 +397,7 @@ export default function CompanyOrganization() {
                 <div className="mt-auto pt-4 space-y-3">
                   <div className="flex items-center gap-2">
                     <span className="text-base text-zinc-600">Billable to Clients:</span>
-                    <span className="text-base text-zinc-900 font-medium">❌ Partial – Quality and governance oversight role</span>
+                    <span className="text-base text-zinc-900 font-medium"> Partial – Quality and governance oversight role</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="text-base text-zinc-600">🟢 Leadership Focus:</span>
@@ -437,7 +437,7 @@ export default function CompanyOrganization() {
                 <div className="mt-auto pt-4 space-y-3">
                   <div className="flex items-center gap-2">
                     <span className="text-base text-zinc-600">Billable to Clients:</span>
-                    <span className="text-base text-zinc-900 font-medium">❌ No – Business leadership and client strategy role</span>
+                    <span className="text-base text-zinc-900 font-medium"> No – Business leadership and client strategy role</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="text-base text-zinc-600">🟢 Leadership Focus:</span>
@@ -477,7 +477,7 @@ export default function CompanyOrganization() {
                 <div className="mt-auto pt-4 space-y-3">
                   <div className="flex items-center gap-2">
                     <span className="text-base text-zinc-600">Billable to Clients:</span>
-                    <span className="text-base text-zinc-900 font-medium">❌ Partial – Program oversight role</span>
+                    <span className="text-base text-zinc-900 font-medium"> Partial – Program oversight role</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="text-base text-zinc-600">🟢 Leadership Focus:</span>
@@ -517,7 +517,7 @@ export default function CompanyOrganization() {
                 <div className="mt-auto pt-4 space-y-3">
                   <div className="flex items-center gap-2">
                     <span className="text-base text-zinc-600">Billable to Clients:</span>
-                    <span className="text-base text-zinc-900 font-medium">❌ Partial – Leadership and design innovation role</span>
+                    <span className="text-base text-zinc-900 font-medium"> Partial – Leadership and design innovation role</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="text-base text-zinc-600">🟢 Leadership Focus:</span>
@@ -557,7 +557,7 @@ export default function CompanyOrganization() {
                 <div className="mt-auto pt-4 space-y-3">
                   <div className="flex items-center gap-2">
                     <span className="text-base text-zinc-600">Billable to Clients:</span>
-                    <span className="text-base text-zinc-900 font-medium">❌ No – Internal systems and infrastructure role</span>
+                    <span className="text-base text-zinc-900 font-medium"> No – Internal systems and infrastructure role</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="text-base text-zinc-600">🟢 Leadership Focus:</span>
@@ -597,7 +597,7 @@ export default function CompanyOrganization() {
                 <div className="mt-auto pt-4 space-y-3">
                   <div className="flex items-center gap-2">
                     <span className="text-base text-zinc-600">Billable to Clients:</span>
-                    <span className="text-base text-zinc-900 font-medium">❌ No – Human capital and organizational leadership role</span>
+                    <span className="text-base text-zinc-900 font-medium"> No – Human capital and organizational leadership role</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="text-base text-zinc-600">🟢 Leadership Focus:</span>
@@ -610,7 +610,7 @@ export default function CompanyOrganization() {
         </div>
 
         {/* Sales & Marketing */}
-        <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">
+        {/* <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">
           <div className="flex items-center gap-3 mb-4">
             <div className="p-2 bg-blue-50 rounded-lg">
               <FiTrendingUp className="text-blue-600" />
@@ -655,7 +655,7 @@ export default function CompanyOrganization() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Recruitment */}
         <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">
