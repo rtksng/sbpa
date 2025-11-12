@@ -467,80 +467,47 @@ export default function GeneralPresentation() {
               <FiUsers className="text-blue-600" />
             </div>
             <h2 className="text-xl font-semibold text-zinc-900">
-              Staff at 8/2025
+              Staff
             </h2>
           </div>
           
-          {/* Consultants Onsite vs Offsite Analysis */}
-          <div className="mb-6">
-            <div className="flex items-center gap-3 mb-4">
-              <div className="p-2 bg-[#fb5642] rounded-lg">
-                <FiMapPin className="text-white" />
-              </div>
-              <h3 className="text-lg font-semibold text-zinc-900">
-                Consultants Onsite vs Offsite Analysis
-              </h3>
-            </div>
-            <div>
-              <p className="text-zinc-600 mb-4">
-                Number and % in each category, split between employees, freelancers, contractors etc.
-              </p>
-             
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div className="bg-zinc-50 rounded-lg p-4 border border-zinc-200">
-                  <h4 className="text-base font-semibold text-zinc-900 mb-3">Onsite Consultants</h4>
-                  <div className="space-y-3">
-                    <div className="flex justify-between items-center text-base">
-                      <span className="text-zinc-600">Total:</span>
-                      <span className="font-semibold text-zinc-900 bg-orange-100 px-2 py-1 rounded text-base">300</span>
-                    </div>
-                   
-                  </div>
-                </div>
-                <div className="bg-zinc-50 rounded-lg p-4 border border-zinc-200">
-                  <h4 className="text-base font-semibold text-zinc-900 mb-3">Offsite Consultants</h4>
-                  <div className="space-y-3">
-                    <div className="flex justify-between items-center text-base">
-                      <span className="text-zinc-600">Total:</span>
-                      <span className="font-semibold text-zinc-900 bg-blue-100 px-2 py-1 rounded text-base">150</span>
-                    </div>
-                   
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
 
           {/* Gender Split */}
           <div>
-            <div className="flex items-center gap-3 mb-4">
-              <div className="p-2 bg-[#fb5642] rounded-lg">
-                <FiUsers className="text-white" />
+            <div className="bg-white rounded-lg p-6 border border-zinc-200 shadow-sm">
+              {/* Total Display - Prominent */}
+              <div className="text-center mb-6">
+                <div className="inline-flex flex-col items-center">
+                  <span className="text-sm font-medium text-zinc-500 uppercase tracking-wide mb-2">Total Staff</span>
+                  <div className="relative">
+                    <span className="text-5xl font-bold text-[#fb5642]">400</span>
+                  </div>
+                </div>
               </div>
-              <h3 className="text-lg font-semibold text-zinc-900">
-                Gender Split
-              </h3>
-            </div>
-            <div className="bg-zinc-50 rounded-lg p-4 border border-zinc-200">
-              <div className="space-y-3">
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-2">
-                    <div className="w-3 h-3 bg-blue-500 rounded-full shrink-0"></div>
-                    <span className="text-base text-zinc-600">Male:</span>
+
+              {/* Gender Breakdown Cards */}
+              <div className="grid grid-cols-2 gap-4">
+                {/* Male Card */}
+                <div className="bg-white rounded-lg p-4 border border-zinc-200 shadow-sm">
+                  <div className="flex items-center gap-3 mb-2">
+                    <div className="w-4 h-4 bg-blue-500 rounded-full shrink-0"></div>
+                    <span className="text-sm font-medium text-zinc-700 uppercase tracking-wide">Male</span>
                   </div>
-                  <span className="font-semibold text-zinc-900 bg-blue-50 px-3 py-1 rounded-md text-base">286</span>
-                </div>
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-2">
-                    <div className="w-3 h-3 bg-pink-500 rounded-full shrink-0"></div>
-                    <span className="text-base text-zinc-600">Female:</span>
+                  <div className="flex items-baseline gap-2">
+                    <span className="text-3xl font-bold text-blue-700">286</span>
+                    <span className="text-sm font-semibold text-blue-600">(71.5%)</span>
                   </div>
-                  <span className="font-semibold text-zinc-900 bg-pink-50 px-3 py-1 rounded-md text-base">114</span>
                 </div>
-                <div className="pt-2 border-t border-zinc-200">
-                  <div className="flex items-center justify-between text-base">
-                    <span className="font-medium text-zinc-700">Total:</span>
-                    <span className="font-bold text-zinc-900 bg-zinc-100 px-3 py-1 rounded-md">400</span>
+
+                {/* Female Card */}
+                <div className="bg-white rounded-lg p-4 border border-zinc-200 shadow-sm">
+                  <div className="flex items-center gap-3 mb-2">
+                    <div className="w-4 h-4 bg-pink-500 rounded-full shrink-0"></div>
+                    <span className="text-sm font-medium text-zinc-700 uppercase tracking-wide">Female</span>
+                  </div>
+                  <div className="flex items-baseline gap-2">
+                    <span className="text-3xl font-bold text-pink-700">114</span>
+                    <span className="text-sm font-semibold text-pink-600">(28.5%)</span>
                   </div>
                 </div>
               </div>
