@@ -22,7 +22,7 @@ const leadershipData = {
   hr: [
     { name: 'Dr. Harpreet Kaur', designation: 'Director HR & Admin', experience: '26 Years', imageSrc: '/employees-images/HR/Harpreet-Kaur.png' },
     { name: 'Deepak', designation: 'Manager Admin', experience: '20 Years', imageSrc: '/employees-images/HR/Deepak.png' },
-    { name: 'Rachita Mathur', designation: 'Human Resources - Assitant Manager ', experience: '5+ Years', imageSrc: '/employees-images/HR/Rachita-Mathur.jpg' },
+    { name: 'Rachita Mathur', designation: 'HR - Assitant Manager ', experience: '5+ Years', imageSrc: '/employees-images/HR/Rachita-Mathur.jpg' },
   ],
   engineering: [
     // First Column (8 members)
