@@ -1,6 +1,161 @@
 import { FiUsers, FiMapPin, FiDollarSign, FiAlertCircle, FiCheck, FiBook, FiCalendar, FiRefreshCw } from 'react-icons/fi';
 
 export default function StaffAnalysis() {
+  const consultantData = {
+    fiscalYear: "FY 2025",
+    categories: [
+      {
+        employeeType: "Consultant",
+        total: 375,
+        billingRanges: {
+          "0-50k": 168,
+          "50k-1Lakh": 106,
+          "1Lakh-1.5Lakh": 56,
+          "1.5Lakh-2Lakh": 20,
+          "2LakhAndAbove": 25
+        }
+      },
+      {
+        employeeType: "Moogle Canada",
+        total: 4,
+        billingRanges: {
+          "0-50k": null,
+          "50k-1Lakh": null,
+          "1Lakh-1.5Lakh": null,
+          "1.5Lakh-2Lakh": null,
+          "2LakhAndAbove": null
+        }
+      },
+      {
+        employeeType: "Subcontractors (B2B)",
+        total: 19,
+        billingRanges: {
+          "0-50k": 0,
+          "50k-1Lakh": 0,
+          "1Lakh-1.5Lakh": 0,
+          "1.5Lakh-2Lakh": 6,
+          "2LakhAndAbove": 13
+        }
+      },
+      {
+        employeeType: "FTE support",
+        total: null,
+        billingRanges: {
+          "0-50k": null,
+          "50k-1Lakh": null,
+          "1Lakh-1.5Lakh": null,
+          "1.5Lakh-2Lakh": null,
+          "2LakhAndAbove": null
+        }
+      }
+    ],
+    grandTotal: 394
+  };
+
+  const employeeData = {
+    fiscalYear: "FY 2025",
+    departments: [
+      {
+        department: "Sales",
+        count: 21
+      },
+      {
+        department: "HR",
+        count: 5
+      },
+      {
+        department: "Marketing",
+        count: 29
+      },
+      {
+        department: "Finance",
+        count: 3
+      },
+      {
+        department: "Other",
+        count: 375
+      }
+    ],
+    total: 433
+  };
+
+  const locationData = {
+    locations: [
+      {
+        cityCountry: "Tricity",
+        consultants: 155
+      },
+      {
+        cityCountry: "Haryana",
+        consultants: 97
+      },
+      {
+        cityCountry: "Bihar",
+        consultants: 12
+      },
+      {
+        cityCountry: "Rajasthan",
+        consultants: 13
+      },
+      {
+        cityCountry: "Dehradun",
+        consultants: 9
+      },
+      {
+        cityCountry: "Himachal",
+        consultants: 79
+      },
+      {
+        cityCountry: "UP",
+        consultants: 10
+      }
+    ]
+  };
+
+  const ageDistribution = {
+    categories: [
+      {
+        ageRange: "under 25",
+        percentage: 24.8
+      },
+      {
+        ageRange: "25-35 years",
+        percentage: 56.0
+      },
+      {
+        ageRange: "35-45 years",
+        percentage: 19.0
+      },
+      {
+        ageRange: "45-55 years",
+        percentage: 0.0
+      },
+      {
+        ageRange: "over 55",
+        percentage: 0.2
+      }
+    ],
+    total: 100.0
+  };
+
+  const educationData = {
+    diplomas: [
+      {
+        diploma: "B.Tech/BCA/BCOM",
+        percentage: 78.2
+      },
+      {
+        diploma: "MSC/M.tech/MCA/MBA",
+        percentage: 21.8
+      },
+      {
+        diploma: "PHD",
+        percentage: 0.0
+      }
+    ],
+    total: 100.0
+  };
+
   return (
     <div className="min-h-full bg-zinc-50 pb-6">
       <div className="max-w-7xl mx-auto">
@@ -15,7 +170,7 @@ export default function StaffAnalysis() {
         </div>
 
         {/* Consultants Onsite vs Offsite Analysis */}
-        <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">
+        {/* <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">
           <div className="flex items-center gap-3 mb-4">
             <div className="p-2 bg-[#fb5642] rounded-lg">
               <FiMapPin className="text-white" />
@@ -52,11 +207,11 @@ export default function StaffAnalysis() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
 
         {/* Key Metrics Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mb-6">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mb-6">
           <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm">
             <div className="flex items-center gap-3 mb-4">
               <div className="p-2 bg-[#fb5642] rounded-lg">
@@ -104,7 +259,7 @@ export default function StaffAnalysis() {
             <p className="text-base text-zinc-500 mt-2">Annual</p>
             
           </div>
-        </div>
+        </div> */}
 
 
 
@@ -162,7 +317,7 @@ export default function StaffAnalysis() {
         </div>
 
         {/* Consultants' Location Analysis by Office */}
-        <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">
+        {/* <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">
           <div className="flex items-center gap-3 mb-4">
             <div className="p-2 bg-[#fb5642] rounded-lg">
               <FiMapPin className="text-white" />
@@ -217,10 +372,10 @@ export default function StaffAnalysis() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Consultants' Education Analysis */}
-        <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">
+        {/* <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">
           <div className="flex items-center gap-3 mb-4">
             <div className="p-2 bg-[#fb5642] rounded-lg">
               <FiBook className="text-white" />
@@ -262,10 +417,10 @@ export default function StaffAnalysis() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Age Pyramid */}
-        <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">
+        {/* <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">
           <div className="flex items-center gap-3 mb-4">
             <div className="p-2 bg-[#fb5642] rounded-lg">
               <FiCalendar className="text-white" />
@@ -333,378 +488,283 @@ export default function StaffAnalysis() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        {/* Staff Rotation Analysis */}
+        {/* Number of consultants (FTE) */}
         <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">
           <div className="flex items-center gap-3 mb-4">
             <div className="p-2 bg-[#fb5642] rounded-lg">
-              <FiRefreshCw className="text-white" />
+              <FiUsers className="text-white" />
             </div>
             <h2 className="text-xl font-semibold text-zinc-900">
-              Staff Rotation Analysis
+              Number of consultants (FTE)
             </h2>
           </div>
           <div>
             <p className="text-zinc-600 mb-4">
-              Consultants' turnover in 2023 and January 2024 to date, by quarter, split between employees, contractors and freelancers
+              {consultantData.fiscalYear}
             </p>
             
-            {/* 2023 Quarters */}
-            <div className="mb-6">
-              <h3 className="text-lg font-semibold text-zinc-900 mb-4">2023</h3>
-              <div className="space-y-4">
-                <div className="bg-zinc-50 rounded-lg p-4 border border-zinc-200">
-                  <h4 className="text-base font-semibold text-zinc-900 mb-3">Q1 2023</h4>
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-3">
-                    <div>
-                      <p className="text-sm text-zinc-600 mb-1">Employees</p>
-                      <div className="text-sm space-y-1">
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Beginning:</span>
-                          <span className="font-semibold">60</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Entries:</span>
-                          <span className="font-semibold text-green-600">+5</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Exits:</span>
-                          <span className="font-semibold text-red-600">-2</span>
-                        </div>
-                        <div className="flex justify-between pt-1 border-t border-zinc-300">
-                          <span className="font-medium">End:</span>
-                          <span className="font-bold">63</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <p className="text-sm text-zinc-600 mb-1">Contractors</p>
-                      <div className="text-sm space-y-1">
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Beginning:</span>
-                          <span className="font-semibold">30</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Entries:</span>
-                          <span className="font-semibold text-green-600">+3</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Exits:</span>
-                          <span className="font-semibold text-red-600">-1</span>
-                        </div>
-                        <div className="flex justify-between pt-1 border-t border-zinc-300">
-                          <span className="font-medium">End:</span>
-                          <span className="font-bold">32</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <p className="text-sm text-zinc-600 mb-1">Freelancers</p>
-                      <div className="text-sm space-y-1">
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Beginning:</span>
-                          <span className="font-semibold">20</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Entries:</span>
-                          <span className="font-semibold text-green-600">+2</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Exits:</span>
-                          <span className="font-semibold text-red-600">-1</span>
-                        </div>
-                        <div className="flex justify-between pt-1 border-t border-zinc-300">
-                          <span className="font-medium">End:</span>
-                          <span className="font-bold">21</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-                <div className="bg-zinc-50 rounded-lg p-4 border border-zinc-200">
-                  <h4 className="text-base font-semibold text-zinc-900 mb-3">Q2 2023</h4>
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-3">
-                    <div>
-                      <p className="text-sm text-zinc-600 mb-1">Employees</p>
-                      <div className="text-sm space-y-1">
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Beginning:</span>
-                          <span className="font-semibold">63</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Entries:</span>
-                          <span className="font-semibold text-green-600">+4</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Exits:</span>
-                          <span className="font-semibold text-red-600">-3</span>
-                        </div>
-                        <div className="flex justify-between pt-1 border-t border-zinc-300">
-                          <span className="font-medium">End:</span>
-                          <span className="font-bold">64</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <p className="text-sm text-zinc-600 mb-1">Contractors</p>
-                      <div className="text-sm space-y-1">
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Beginning:</span>
-                          <span className="font-semibold">32</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Entries:</span>
-                          <span className="font-semibold text-green-600">+2</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Exits:</span>
-                          <span className="font-semibold text-red-600">-2</span>
-                        </div>
-                        <div className="flex justify-between pt-1 border-t border-zinc-300">
-                          <span className="font-medium">End:</span>
-                          <span className="font-bold">32</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <p className="text-sm text-zinc-600 mb-1">Freelancers</p>
-                      <div className="text-sm space-y-1">
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Beginning:</span>
-                          <span className="font-semibold">21</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Entries:</span>
-                          <span className="font-semibold text-green-600">+1</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Exits:</span>
-                          <span className="font-semibold text-red-600">-1</span>
-                        </div>
-                        <div className="flex justify-between pt-1 border-t border-zinc-300">
-                          <span className="font-medium">End:</span>
-                          <span className="font-bold">21</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="bg-zinc-50 rounded-lg p-4 border border-zinc-200">
-                  <h4 className="text-base font-semibold text-zinc-900 mb-3">Q3 2023</h4>
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-3">
-                    <div>
-                      <p className="text-sm text-zinc-600 mb-1">Employees</p>
-                      <div className="text-sm space-y-1">
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Beginning:</span>
-                          <span className="font-semibold">64</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Entries:</span>
-                          <span className="font-semibold text-green-600">+6</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Exits:</span>
-                          <span className="font-semibold text-red-600">-4</span>
-                        </div>
-                        <div className="flex justify-between pt-1 border-t border-zinc-300">
-                          <span className="font-medium">End:</span>
-                          <span className="font-bold">66</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <p className="text-sm text-zinc-600 mb-1">Contractors</p>
-                      <div className="text-sm space-y-1">
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Beginning:</span>
-                          <span className="font-semibold">32</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Entries:</span>
-                          <span className="font-semibold text-green-600">+3</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Exits:</span>
-                          <span className="font-semibold text-red-600">-1</span>
-                        </div>
-                        <div className="flex justify-between pt-1 border-t border-zinc-300">
-                          <span className="font-medium">End:</span>
-                          <span className="font-bold">34</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <p className="text-sm text-zinc-600 mb-1">Freelancers</p>
-                      <div className="text-sm space-y-1">
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Beginning:</span>
-                          <span className="font-semibold">21</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Entries:</span>
-                          <span className="font-semibold text-green-600">+2</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Exits:</span>
-                          <span className="font-semibold text-red-600">-2</span>
-                        </div>
-                        <div className="flex justify-between pt-1 border-t border-zinc-300">
-                          <span className="font-medium">End:</span>
-                          <span className="font-bold">21</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="bg-zinc-50 rounded-lg p-4 border border-zinc-200">
-                  <h4 className="text-base font-semibold text-zinc-900 mb-3">Q4 2023</h4>
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-3">
-                    <div>
-                      <p className="text-sm text-zinc-600 mb-1">Employees</p>
-                      <div className="text-sm space-y-1">
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Beginning:</span>
-                          <span className="font-semibold">66</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Entries:</span>
-                          <span className="font-semibold text-green-600">+3</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Exits:</span>
-                          <span className="font-semibold text-red-600">-3</span>
-                        </div>
-                        <div className="flex justify-between pt-1 border-t border-zinc-300">
-                          <span className="font-medium">End:</span>
-                          <span className="font-bold">66</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <p className="text-sm text-zinc-600 mb-1">Contractors</p>
-                      <div className="text-sm space-y-1">
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Beginning:</span>
-                          <span className="font-semibold">34</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Entries:</span>
-                          <span className="font-semibold text-green-600">+2</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Exits:</span>
-                          <span className="font-semibold text-red-600">-1</span>
-                        </div>
-                        <div className="flex justify-between pt-1 border-t border-zinc-300">
-                          <span className="font-medium">End:</span>
-                          <span className="font-bold">35</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <p className="text-sm text-zinc-600 mb-1">Freelancers</p>
-                      <div className="text-sm space-y-1">
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Beginning:</span>
-                          <span className="font-semibold">21</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Entries:</span>
-                          <span className="font-semibold text-green-600">+1</span>
-                        </div>
-                        <div className="flex justify-between">
-                          <span className="text-zinc-600">Exits:</span>
-                          <span className="font-semibold text-red-600">-1</span>
-                        </div>
-                        <div className="flex justify-between pt-1 border-t border-zinc-300">
-                          <span className="font-medium">End:</span>
-                          <span className="font-bold">21</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* January 2024 */}
-            <div>
-              <h3 className="text-lg font-semibold text-zinc-900 mb-4">January 2024</h3>
-              <div className="bg-zinc-50 rounded-lg p-4 border border-zinc-200">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-3">
-                  <div>
-                    <p className="text-sm text-zinc-600 mb-1">Employees</p>
-                    <div className="text-sm space-y-1">
-                      <div className="flex justify-between">
-                        <span className="text-zinc-600">Beginning:</span>
-                        <span className="font-semibold">66</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span className="text-zinc-600">Entries:</span>
-                        <span className="font-semibold text-green-600">+2</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span className="text-zinc-600">Exits:</span>
-                        <span className="font-semibold text-red-600">-3</span>
-                      </div>
-                      <div className="flex justify-between pt-1 border-t border-zinc-300">
-                        <span className="font-medium">End:</span>
-                        <span className="font-bold">65</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div>
-                    <p className="text-sm text-zinc-600 mb-1">Contractors</p>
-                    <div className="text-sm space-y-1">
-                      <div className="flex justify-between">
-                        <span className="text-zinc-600">Beginning:</span>
-                        <span className="font-semibold">35</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span className="text-zinc-600">Entries:</span>
-                        <span className="font-semibold text-green-600">+1</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span className="text-zinc-600">Exits:</span>
-                        <span className="font-semibold text-red-600">-1</span>
-                      </div>
-                      <div className="flex justify-between pt-1 border-t border-zinc-300">
-                        <span className="font-medium">End:</span>
-                        <span className="font-bold">35</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div>
-                    <p className="text-sm text-zinc-600 mb-1">Freelancers</p>
-                    <div className="text-sm space-y-1">
-                      <div className="flex justify-between">
-                        <span className="text-zinc-600">Beginning:</span>
-                        <span className="font-semibold">21</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span className="text-zinc-600">Entries:</span>
-                        <span className="font-semibold text-green-600">+1</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span className="text-zinc-600">Exits:</span>
-                        <span className="font-semibold text-red-600">-0</span>
-                      </div>
-                      <div className="flex justify-between pt-1 border-t border-zinc-300">
-                        <span className="font-medium">End:</span>
-                        <span className="font-bold">22</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div className="overflow-x-auto">
+              <table className="min-w-full divide-y divide-zinc-200">
+                <thead className="bg-zinc-50">
+                  <tr>
+                    <th scope="col" className="px-6 py-3 text-left text-sm font-medium text-zinc-500 uppercase tracking-wider">
+                      Employee Type
+                    </th>
+                    <th scope="col" className="px-6 py-3 text-left text-sm font-medium text-zinc-500 uppercase tracking-wider">
+                      Total
+                    </th>
+                    <th scope="col" className="px-6 py-3 text-left text-sm font-medium text-zinc-500 uppercase tracking-wider">
+                      0-50k
+                    </th>
+                    <th scope="col" className="px-6 py-3 text-left text-sm font-medium text-zinc-500 uppercase tracking-wider">
+                      50k-1Lakh
+                    </th>
+                    <th scope="col" className="px-6 py-3 text-left text-sm font-medium text-zinc-500 uppercase tracking-wider">
+                      1Lakh-1.5Lakh
+                    </th>
+                    <th scope="col" className="px-6 py-3 text-left text-sm font-medium text-zinc-500 uppercase tracking-wider">
+                      1.5Lakh-2Lakh
+                    </th>
+                    <th scope="col" className="px-6 py-3 text-left text-sm font-medium text-zinc-500 uppercase tracking-wider">
+                    2 Lakh & Above
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="bg-white divide-y divide-zinc-200">
+                  {consultantData.categories.map((category, index) => (
+                    <tr key={index}>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-zinc-900">
+                        {category.employeeType}
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-zinc-500">
+                        {category.total !== null ? category.total : '-'}
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-zinc-500">
+                        {category.billingRanges["0-50k"] !== null ? category.billingRanges["0-50k"] : '-'}
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-zinc-500">
+                        {category.billingRanges["50k-1Lakh"] !== null ? category.billingRanges["50k-1Lakh"] : '-'}
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-zinc-500">
+                        {category.billingRanges["1Lakh-1.5Lakh"] !== null ? category.billingRanges["1Lakh-1.5Lakh"] : '-'}
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-zinc-500">
+                        {category.billingRanges["1.5Lakh-2Lakh"] !== null ? category.billingRanges["1.5Lakh-2Lakh"] : '-'}
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-zinc-500">
+                        {category.billingRanges["2LakhAndAbove"] !== null ? category.billingRanges["2LakhAndAbove"] : '-'}
+                      </td>
+                    </tr>
+                  ))}
+                  <tr className="bg-zinc-50 font-semibold">
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-zinc-900">
+                      Grand Total
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-zinc-900">
+                      {consultantData.grandTotal}
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-zinc-900"></td>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-zinc-900"></td>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-zinc-900"></td>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-zinc-900"></td>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-zinc-900"></td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
+
+        {/* Support staff subdivision (non-productive FTEs) */}
+        <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">
+          <div className="flex items-center gap-3 mb-4">
+            <div className="p-2 bg-[#fb5642] rounded-lg">
+              <FiUsers className="text-white" />
+            </div>
+            <h2 className="text-xl font-semibold text-zinc-900">
+              Support staff subdivision (non-productive FTEs)
+            </h2>
+          </div>
+          <div>
+            <p className="text-zinc-600 mb-4">
+              {employeeData.fiscalYear}
+            </p>
+            
+            <div className="overflow-x-auto">
+              <table className="min-w-full divide-y divide-zinc-200">
+                <thead className="bg-zinc-50">
+                  <tr>
+                    <th scope="col" className="px-6 py-3 text-left text-sm font-medium text-zinc-500 uppercase tracking-wider">
+                      Department
+                    </th>
+                    <th scope="col" className="px-6 py-3 text-left text-sm font-medium text-zinc-500 uppercase tracking-wider">
+                      Count
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="bg-white divide-y divide-zinc-200">
+                  {employeeData.departments.map((dept, index) => (
+                    <tr key={index}>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-zinc-900">
+                        {dept.department}
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-zinc-500">
+                        {dept.count}
+                      </td>
+                    </tr>
+                  ))}
+                  <tr className="bg-zinc-50 font-semibold">
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-zinc-900">
+                      Total
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-zinc-900">
+                      {employeeData.total}
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        {/* Cities and/or countries in which they were located YTD 2026 */}
+        <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">
+          <div className="flex items-center gap-3 mb-4">
+            <div className="p-2 bg-[#fb5642] rounded-lg">
+              <FiMapPin className="text-white" />
+            </div>
+            <h2 className="text-xl font-semibold text-zinc-900">
+              Cities and/or countries in which they were located YTD 2026
+            </h2>
+          </div>
+          <div>
+            <div className="overflow-x-auto">
+              <table className="min-w-full divide-y divide-zinc-200">
+                <thead className="bg-zinc-50">
+                  <tr>
+                    <th scope="col" className="px-6 py-3 text-left font-medium text-zinc-500 uppercase tracking-wider text-sm">
+                      City/Country
+                    </th>
+                    <th scope="col" className="px-6 py-3 text-left font-medium text-zinc-500 uppercase tracking-wider text-sm">
+                      Consultants
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="bg-white divide-y divide-zinc-200">
+                  {locationData.locations.map((location, index) => (
+                    <tr key={index}>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-zinc-900">
+                        {location.cityCountry}
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-zinc-500">
+                        {location.consultants}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        {/* Age distribution of productive employees */}
+        <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">
+          <div className="flex items-center gap-3 mb-4">
+            <div className="p-2 bg-[#fb5642] rounded-lg">
+              <FiCalendar className="text-white" />
+            </div>
+            <h2 className="text-xl font-semibold text-zinc-900">
+              Age distribution of productive employees
+            </h2>
+          </div>
+          <div>
+            <div className="overflow-x-auto">
+              <table className="min-w-full divide-y divide-zinc-200">
+                <thead className="bg-zinc-50">
+                  <tr>
+                    <th scope="col" className="px-6 py-3 text-left  font-medium text-zinc-500 uppercase tracking-wider text-sm">
+                      Age Range
+                    </th>
+                    <th scope="col" className="px-6 py-3 text-left  font-medium text-zinc-500 uppercase tracking-wider text-sm">
+                      Percentage
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="bg-white divide-y divide-zinc-200">
+                  {ageDistribution.categories.map((category, index) => (
+                    <tr key={index}>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-zinc-900">
+                        {category.ageRange}
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-zinc-500">
+                        {category.percentage}%
+                      </td>
+                    </tr>
+                  ))}
+                  <tr className="bg-zinc-50 font-semibold">
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-zinc-900">
+                      Total
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-zinc-900">
+                      {ageDistribution.total}%
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        {/* Educational background of productive employees */}
+        <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">
+          <div className="flex items-center gap-3 mb-4">
+            <div className="p-2 bg-[#fb5642] rounded-lg">
+              <FiBook className="text-white" />
+            </div>
+            <h2 className="text-xl font-semibold text-zinc-900">
+              Educational background of productive employees
+            </h2>
+          </div>
+          <div>
+            <div className="overflow-x-auto">
+              <table className="min-w-full divide-y divide-zinc-200">
+                <thead className="bg-zinc-50">
+                  <tr>
+                    <th scope="col" className="px-6 py-3 text-left  font-medium text-zinc-500 uppercase tracking-wider text-sm">
+                      Diploma
+                    </th>
+                    <th scope="col" className="px-6 py-3 text-left  font-medium text-zinc-500 uppercase tracking-wider text-sm">
+                      Percentage
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="bg-white divide-y divide-zinc-200">
+                  {educationData.diplomas.map((item, index) => (
+                    <tr key={index}>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-zinc-900">
+                        {item.diploma}
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-zinc-500">
+                        {item.percentage}%
+                      </td>
+                    </tr>
+                  ))}
+                  <tr className="bg-zinc-50 font-semibold">
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-zinc-900">
+                      Total
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-zinc-900">
+                      {educationData.total}%
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
 
         {/* Bench Analysis */}
         <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">
@@ -720,7 +780,7 @@ export default function StaffAnalysis() {
             <p className="text-zinc-600 mb-4">
               Number of consultants currently on the bench
             </p>
-            <div className="bg-zinc-50 rounded-lg p-6 border border-zinc-200">
+            <div className="bg-zinc-50 rounded-lg p-4 border border-zinc-200">
               <div className="flex items-center justify-between">
                 <div>
                   <h3 className="text-lg font-semibold text-zinc-900 mb-2">Consultants on Bench</h3>

@@ -130,11 +130,10 @@ export default function GeneralPresentation() {
                       <div className="p-1 bg-[#fb5642]/10 rounded">
                         <FiGlobe className="text-[#fb5642] group-hover:scale-110 transition-transform" size={14} />
                       </div>
-                      <p className="text-lg font-semibold text-zinc-900">United Arab Emirates</p>
+                      <p className="text-lg font-semibold text-zinc-900">USA</p>
                     </div>
                     <p className="text-lg text-zinc-600 leading-relaxed">
-                      Meydan Grandstand, 6th floor, Meydan Road,<br />
-                      Nad Al Sheba, Dubai, U.A.E
+                    5858 Horton Street, Suite 101, Emeryville, CA 94608
                     </p>
                   </div>
                 </div>
