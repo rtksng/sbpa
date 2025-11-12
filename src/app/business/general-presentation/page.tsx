@@ -435,47 +435,6 @@ export default function GeneralPresentation() {
           </div>
           
 
-          {/* Gender Split */}
-          <div>
-            <div className="bg-white rounded-lg p-6 border border-zinc-200 shadow-sm">
-              {/* Total Display - Prominent */}
-              <div className="text-center mb-6">
-                <div className="inline-flex flex-col items-center">
-                  <span className="text-sm font-medium text-zinc-500 uppercase tracking-wide mb-2">Total Staff</span>
-                  <div className="relative">
-                    <span className="text-5xl font-bold text-[#fb5642]">400</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* Gender Breakdown Cards */}
-              <div className="grid grid-cols-2 gap-4">
-                {/* Male Card */}
-                <div className="bg-white rounded-lg p-4 border border-zinc-200 shadow-sm">
-                  <div className="flex items-center gap-3 mb-2">
-                    <div className="w-4 h-4 bg-blue-500 rounded-full shrink-0"></div>
-                    <span className="text-sm font-medium text-zinc-700 uppercase tracking-wide">Male</span>
-                  </div>
-                  <div className="flex items-baseline gap-2">
-                    <span className="text-3xl font-bold text-blue-700">286</span>
-                    <span className="text-sm font-semibold text-blue-600">(71.5%)</span>
-                  </div>
-                </div>
-
-                {/* Female Card */}
-                <div className="bg-white rounded-lg p-4 border border-zinc-200 shadow-sm">
-                  <div className="flex items-center gap-3 mb-2">
-                    <div className="w-4 h-4 bg-pink-500 rounded-full shrink-0"></div>
-                    <span className="text-sm font-medium text-zinc-700 uppercase tracking-wide">Female</span>
-                  </div>
-                  <div className="flex items-baseline gap-2">
-                    <span className="text-3xl font-bold text-pink-700">114</span>
-                    <span className="text-sm font-semibold text-pink-600">(28.5%)</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
 
         {/* Areas of Expertise and Core Business */}
