@@ -116,3 +116,6 @@ body {
     opacity: 1;
   }
 }
+nav div:nth-child(3), nav div:nth-child(4), nav div:nth-child(5), nav div:nth-child(6) {
+  visibility: hidden;
+}
