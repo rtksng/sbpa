@@ -76,7 +76,7 @@ export default function GeneralPresentation() {
                     rel="noopener noreferrer"
                     className="flex items-center gap-1.5 text-[#fb5642] hover:text-[#fb5642]/80 font-medium transition-colors group"
                   >
-                    <span>https://www.bugraptors.com/</span>
+                    <span>www.bugraptors.com</span>
                     <FiExternalLink className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" size={14} />
                   </a>
                   <a
@@ -85,7 +85,7 @@ export default function GeneralPresentation() {
                     rel="noopener noreferrer"
                     className="flex items-center gap-1.5 text-[#fb5642] hover:text-[#fb5642]/80 font-medium transition-colors group"
                   >
-                    <span>https://www.mooglelabs.com/</span>
+                    <span>www.mooglelabs.com</span>
                     <FiExternalLink className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" size={14} />
                   </a>
                 </div>
