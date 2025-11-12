@@ -22,7 +22,7 @@ const leadershipData = {
   hr: [
     { name: 'Dr. Harpreet Kaur', designation: 'Director HR & Admin', experience: '26 Years', imageSrc: '/employees-images/HR/Harpreet-Kaur.png' },
     { name: 'Deepak', designation: 'Manager Admin', experience: '20 Years', imageSrc: '/employees-images/HR/Deepak.png' },
-    { name: 'Rachita Mathur', designation: 'Manager Admin', experience: '20 Years', imageSrc: '/employees-images/HR/Deepak.png' },
+    { name: 'Rachita Mathur', designation: 'Human Resources - Assitant Manager ', experience: '5+ Years', imageSrc: '/employees-images/HR/Rachita-Mathur.jpg' },
   ],
   engineering: [
     // First Column (8 members)
@@ -65,14 +65,14 @@ const leadershipData = {
     { name: 'Simran Dhawan', designation: 'Manager Content Strategy', experience: '6 Years', imageSrc: '/employees-images/Sales-Marketing/Simran-Dhawan.png' },
     { name: 'Minkle', designation: 'Manager Organic Marketing', experience: '6 Years', imageSrc: '/employees-images/Sales-Marketing/MinkleKalara.png' },
     { name: 'Palak', designation: 'Manager Lead Generation', experience: '6 Years', imageSrc: '/employees-images/Sales-Marketing/Palakjot-Kaur.png' },
-    { name: 'Pavtrarita', designation: 'Manager Lead Generation', experience: '6 Years', imageSrc: '/employees-images/Sales-Marketing/Palakjot-Kaur.png' },
+    { name: 'Pavtrarita', designation: 'Sr. Manager BD', experience: '10 Years', imageSrc: '/employees-images/Sales-Marketing/Pavitrata.jfif' },
   ],
   uiux: [
     { name: 'Abhishek Vasudev', designation: 'CCO', experience: '18 Years', imageSrc: '/employees-images/UI-UX/Abhishek-Vasudev.png' },
     { name: 'Nitesh Attri', designation: 'Asst. Manager UI/UX', experience: '13+ Years', imageSrc: '/employees-images/UI-UX/Nitesh-Attri.png' },
-    { name: 'Shavinder Bains', designation: 'Team Lead', experience: '12+ Years', imageSrc: '/employees-images/UI-UX/Nitesh-Attri.png' },
-    { name: 'Raman Shant', designation: 'Team Lead', experience: '6+ Years', imageSrc: '/employees-images/UI-UX/Nitesh-Attri.png' },
-    { name: 'Manzeer Walia', designation: 'Team Lead', experience: '13+ Years', imageSrc: '/employees-images/UI-UX/Nitesh-Attri.png' },
+    { name: 'Shavinder Bains', designation: 'Team Lead', experience: '12+ Years', imageSrc: '/employees-images/UI-UX/Shavinder-Bains.png' },
+    { name: 'Raman Shant', designation: 'Team Lead', experience: '6+ Years', imageSrc: '/employees-images/UI-UX/Raman-Shant.png' },
+    { name: 'Manzeer Walia', designation: 'Team Lead', experience: '6+ Years', imageSrc: '/employees-images/UI-UX/Manzeer-Walia.png' },
   ],
 };
 
