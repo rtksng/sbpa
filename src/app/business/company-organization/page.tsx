@@ -288,9 +288,7 @@ export default function CompanyOrganization() {
             <p className="text-zinc-600 mb-4">
               Explain the main roles of each member of the management team, and if they are billable to clients or not.
             </p>
-            <p className="text-zinc-600 text-base mb-2">
-              <strong>Source:</strong> GV Sir to provide
-            </p>
+            
             <div className="bg-zinc-50 rounded-lg p-4 border border-zinc-200">
               <p className="text-zinc-900">[Management team details to be provided]</p>
               <div className="mt-4 space-y-3">
@@ -318,9 +316,7 @@ export default function CompanyOrganization() {
             <p className="text-zinc-600 mb-4">
               Describe the sales management model: commercial meeting, coaching, sales reporting process, operational KPIs.
             </p>
-            <p className="text-zinc-600 text-base mb-4">
-              <strong>Source:</strong> Anil Rana to provide
-            </p>
+           
 
             <div className="space-y-4">
               <div className="bg-zinc-50 rounded-lg p-4 border border-zinc-200">

@@ -404,9 +404,7 @@ export default function CompensationPolicy() {
             <p className="text-zinc-600 mb-4">
               The payroll process ensures employees are paid accurately and on time, in compliance with labour laws, tax regulations, and company policies.
             </p>
-            <p className="text-zinc-600 text-lg mb-4">
-              <strong>Source:</strong> HR to provide
-            </p>
+           
 
             <div className="space-y-4">
               <div className="bg-white rounded-lg p-4 border border-zinc-200 transition-shadow duration-200 hover:shadow-lg">
@@ -542,9 +540,7 @@ export default function CompensationPolicy() {
             <p className="text-zinc-600 mb-4">
               Describe travel expenses policy.
             </p>
-            <p className="text-zinc-600 text-lg mb-4">
-              <strong>Source:</strong> HR to provide
-            </p>
+           
 
             <div className="space-y-4 mb-6">
               <div className="bg-white rounded-lg p-4 border border-zinc-200 transition-shadow duration-200 hover:shadow-lg">
