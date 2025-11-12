@@ -154,7 +154,7 @@ export default function StaffAnalysis() {
       },
       {
         skill: "Enterprise & Integration Technologies",
-        count: 99
+        count: 100
       },
       {
         skill: "Cloud-Native, Devops & Infrastructure",
@@ -174,7 +174,7 @@ export default function StaffAnalysis() {
       },
       {
         skill: "Quality Engineering",
-        count: 54
+        count: 55
       },
       {
         skill: "Automation",
