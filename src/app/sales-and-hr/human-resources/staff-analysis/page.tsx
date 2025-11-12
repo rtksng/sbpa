@@ -156,6 +156,48 @@ export default function StaffAnalysis() {
     total: 100.0
   };
 
+  const skillData = {
+    skills: [
+      {
+        skill: "AI - Implementation and Quality",
+        count: 108
+      },
+      {
+        skill: "Enterprise & Integration Technologies",
+        count: 102
+      },
+      {
+        skill: "Cloud-Native, Devops & Infrastructure",
+        count: 32
+      },
+      {
+        skill: "Data Engineering",
+        count: 8
+      },
+      {
+        skill: "Digital & Product Transformation",
+        count: 32
+      },
+      {
+        skill: "Cybersecurity",
+        count: 8
+      },
+      {
+        skill: "Quality Engineering",
+        count: 60
+      },
+      {
+        skill: "Automation",
+        count: 35
+      },
+      {
+        skill: "Solution Architecture & Design",
+        count: 16
+      }
+    ],
+    total: 401
+  };
+
   return (
     <div className="min-h-full bg-zinc-50 pb-6">
       <div className="max-w-7xl mx-auto">
@@ -765,6 +807,53 @@ export default function StaffAnalysis() {
           </div>
         </div>
 
+        {/* Skill Distribution */}
+        <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">
+          <div className="flex items-center gap-3 mb-4">
+            <div className="p-2 bg-[#fb5642] rounded-lg">
+              <FiUsers className="text-white" />
+            </div>
+            <h2 className="text-xl font-semibold text-zinc-900">
+              Skill Distribution of Productive Employees
+            </h2>
+          </div>
+          <div>
+            <div className="overflow-x-auto">
+              <table className="min-w-full divide-y divide-zinc-200">
+                <thead className="bg-zinc-50">
+                  <tr>
+                    <th scope="col" className="px-6 py-3 text-left  font-medium text-zinc-500 uppercase tracking-wider text-sm">
+                      Skill
+                    </th>
+                    <th scope="col" className="px-6 py-3 text-left  font-medium text-zinc-500 uppercase tracking-wider text-sm">
+                      Resource Count
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="bg-white divide-y divide-zinc-200">
+                  {skillData.skills.map((item, index) => (
+                    <tr key={index}>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-zinc-900">
+                        {item.skill}
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-zinc-500">
+                        {item.count}
+                      </td>
+                    </tr>
+                  ))}
+                  <tr className="bg-zinc-50 font-semibold">
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-zinc-900">
+                      Total
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-zinc-900">
+                      {skillData.total}
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
 
         {/* Bench Analysis */}
         <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">
