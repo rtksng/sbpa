@@ -424,18 +424,7 @@ export default function GeneralPresentation() {
         </div>
 
         {/* Staff Information */}
-        <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">
-          <div className="flex items-center gap-3 mb-4">
-            <div className="p-2 bg-blue-50 rounded-lg">
-              <FiUsers className="text-blue-600" />
-            </div>
-            <h2 className="text-xl font-semibold text-zinc-900">
-              Staff
-            </h2>
-          </div>
-          
-
-        </div>
+       
 
         {/* Areas of Expertise and Core Business */}
         <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">
