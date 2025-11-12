@@ -70,6 +70,24 @@ export default function GeneralPresentation() {
                     <span>www.seasiainfotech.com</span>
                     <FiExternalLink className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" size={14} />
                   </a>
+                  <a
+                    href="https://www.bugraptors.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1.5 text-[#fb5642] hover:text-[#fb5642]/80 font-medium transition-colors group"
+                  >
+                    <span>https://www.bugraptors.com/</span>
+                    <FiExternalLink className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" size={14} />
+                  </a>
+                  <a
+                    href="https://www.mooglelabs.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1.5 text-[#fb5642] hover:text-[#fb5642]/80 font-medium transition-colors group"
+                  >
+                    <span>https://www.mooglelabs.com/</span>
+                    <FiExternalLink className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" size={14} />
+                  </a>
                 </div>
               </div>
             </div>
@@ -417,7 +435,7 @@ export default function GeneralPresentation() {
             <div>
               <h3 className="text-lg font-semibold text-zinc-900 mb-3">Value Proposition</h3>
               <div className="bg-gradient-to-r from-[#fb5642]/10 to-orange-100 rounded-lg p-5 border border-[#fb5642]/20">
-                <p className="text-zinc-600 italic text-center mb-3">"World-Class Services. Proprietary Tools. Proven Outcomes."</p>
+                <p className="text-zinc-600 italic text-xl font-medium text-center mb-3">"World-Class Services. Proprietary Tools. Proven Outcomes."</p>
                 <div className="flex items-start gap-2">
                   <div className="mt-1.5 w-1.5 h-1.5 bg-[#fb5642] rounded-full flex-shrink-0"></div>
                   <p className="text-zinc-600">Seasia Group blends technology, innovation, and discipline to help enterprises accelerate digital transformation, enhance customer experience, and scale globally.</p>
