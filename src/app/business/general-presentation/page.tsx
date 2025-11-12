@@ -48,7 +48,7 @@ export default function GeneralPresentation() {
                   <div className="flex items-center gap-2">
                     <p className="text-lg font-semibold text-zinc-900">2011</p>
                     <span className="px-2 py-0.5 bg-[#fb5642]/10 text-[#fb5642] text-lg font-medium rounded">
-                      {new Date().getFullYear() - 2000}+ Years
+                      {new Date().getFullYear() - 2011}+ Years
                     </span>
                   </div>
                 </div>
