@@ -296,57 +296,7 @@ export default function StaffAnalysis() {
 
 
         {/* Work Council and Labor Union */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
-          <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm">
-            <div className="flex items-center gap-3 mb-4">
-              <div className="p-2 bg-[#fb5642] rounded-lg">
-                <FiUsers className="text-white" />
-              </div>
-              <h2 className="text-lg font-semibold text-zinc-900">
-                Work Council
-              </h2>
-            </div>
-            <div>
-              <p className="text-zinc-600 mb-4">Is there a work council?</p>
-              <div className="bg-zinc-50 rounded-lg p-4 border border-zinc-200">
-                <div className="flex items-center gap-3">
-                  <div className="flex items-center gap-2">
-                    <div className="w-4 h-4 bg-red-100 rounded-full flex items-center justify-center shrink-0">
-                      <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-                    </div>
-                    <span className="font-medium text-zinc-900">NO</span>
-                  </div>
-                </div>
-              </div>
-          
-            </div>
-          </div>
-
-          <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm">
-            <div className="flex items-center gap-3 mb-4">
-              <div className="p-2 bg-[#fb5642] rounded-lg">
-                <FiAlertCircle className="text-white" />
-              </div>
-              <h2 className="text-lg font-semibold text-zinc-900">
-                Labor Union
-              </h2>
-            </div>
-            <div>
-              <p className="text-zinc-600 mb-4">Is a labor union present?</p>
-              <div className="bg-zinc-50 rounded-lg p-4 border border-zinc-200">
-                <div className="flex items-center gap-3">
-                  <div className="flex items-center gap-2">
-                    <div className="w-4 h-4 bg-red-100 rounded-full flex items-center justify-center shrink-0">
-                      <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-                    </div>
-                    <span className="font-medium text-zinc-900">NO</span>
-                  </div>
-                </div>
-              </div>
-            
-            </div>
-          </div>
-        </div>
+        
 
         {/* Consultants' Location Analysis by Office */}
         {/* <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">
@@ -873,7 +823,57 @@ export default function StaffAnalysis() {
             </div>
           </div>
         </div>
+<div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+          <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="p-2 bg-[#fb5642] rounded-lg">
+                <FiUsers className="text-white" />
+              </div>
+              <h2 className="text-lg font-semibold text-zinc-900">
+                Work Council
+              </h2>
+            </div>
+            <div>
+              <p className="text-zinc-600 mb-4">Is there a work council?</p>
+              <div className="bg-zinc-50 rounded-lg p-4 border border-zinc-200">
+                <div className="flex items-center gap-3">
+                  <div className="flex items-center gap-2">
+                    <div className="w-4 h-4 bg-red-100 rounded-full flex items-center justify-center shrink-0">
+                      <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+                    </div>
+                    <span className="font-medium text-zinc-900">NO</span>
+                  </div>
+                </div>
+              </div>
+          
+            </div>
+          </div>
 
+          <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="p-2 bg-[#fb5642] rounded-lg">
+                <FiAlertCircle className="text-white" />
+              </div>
+              <h2 className="text-lg font-semibold text-zinc-900">
+                Labor Union
+              </h2>
+            </div>
+            <div>
+              <p className="text-zinc-600 mb-4">Is a labor union present?</p>
+              <div className="bg-zinc-50 rounded-lg p-4 border border-zinc-200">
+                <div className="flex items-center gap-3">
+                  <div className="flex items-center gap-2">
+                    <div className="w-4 h-4 bg-red-100 rounded-full flex items-center justify-center shrink-0">
+                      <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+                    </div>
+                    <span className="font-medium text-zinc-900">NO</span>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
