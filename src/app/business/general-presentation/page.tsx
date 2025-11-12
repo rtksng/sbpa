@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FiFileText, FiCalendar, FiMapPin, FiUsers, FiGlobe, FiTarget, FiTrendingUp, FiBriefcase, FiAward, FiBarChart2, FiSettings, FiExternalLink } from 'react-icons/fi';
+import { FiFileText, FiCalendar, FiMapPin, FiUsers, FiGlobe, FiTarget, FiTrendingUp, FiBriefcase, FiAward, FiBarChart2, FiSettings, FiExternalLink, FiCheck, FiSmartphone, FiCloud, FiCode } from 'react-icons/fi';
 
 export default function GeneralPresentation() {
   return (
@@ -112,7 +112,7 @@ export default function GeneralPresentation() {
                   Additional Offices
                 </label>
                 <div className="grid lg:grid-cols-2 gap-3">
-                  
+
                   <div className="bg-white rounded-lg p-3 border border-zinc-200 hover:border-[#fb5642]/30 hover:shadow-sm transition-all group">
                     <div className="flex items-center gap-2 mb-2">
                       <div className="p-1 bg-[#fb5642]/10 rounded">
@@ -133,7 +133,7 @@ export default function GeneralPresentation() {
                       <p className="text-lg font-semibold text-zinc-900">USA</p>
                     </div>
                     <p className="text-lg text-zinc-600 leading-relaxed">
-                    5858 Horton Street, Suite 101, Emeryville, CA 94608
+                      5858 Horton Street, Suite 101, Emeryville, CA 94608
                     </p>
                   </div>
                 </div>
@@ -141,7 +141,322 @@ export default function GeneralPresentation() {
             </div>
           </div>
         </div>
+        {/* Our USP */}
+        <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">
+          <div className="flex items-center gap-3 mb-6">
+            <div className="p-2 bg-[#fb5642] rounded-lg">
+              <FiCheck className="text-white" />
+            </div>
+            <h2 className="text-xl font-semibold text-zinc-900">
+              Our USP
+            </h2>
+          </div>
+          
+          <div className="space-y-8">
+            {/* Group Overview Card */}
+            <div className="bg-gradient-to-br from-[#fb5642]/5 to-[#fb5642]/10 rounded-lg border border-[#fb5642]/20 p-5">
+              <h3 className="text-lg font-semibold text-zinc-900 mb-3">SEASIA GROUP – WORLD-CLASS DIGITAL ENGINEERING ECOSYSTEM</h3>
+              <div className="space-y-2">
+                <div className="flex items-start gap-2">
+                  <div className="mt-1.5 w-1.5 h-1.5 bg-[#fb5642] rounded-full flex-shrink-0"></div>
+                  <p className="text-zinc-600">Global technology and digital transformation group delivering world-class IT, AI, and product engineering services.</p>
+                </div>
+                <div className="flex items-start gap-2">
+                  <div className="mt-1.5 w-1.5 h-1.5 bg-[#fb5642] rounded-full flex-shrink-0"></div>
+                  <p className="text-zinc-600">Backed by CMMI Level 5, ISO-certified processes, and global delivery centers across the US, Canada, Europe, and Asia.</p>
+                </div>
+                <div className="flex items-start gap-2">
+                  <div className="mt-1.5 w-1.5 h-1.5 bg-[#fb5642] rounded-full flex-shrink-0"></div>
+                  <p className="text-zinc-600">Powered by 10+ proprietary accelerators and frameworks that ensure faster delivery, higher quality, and measurable outcomes.</p>
+                </div>
+              </div>
+            </div>
 
+            {/* Group Companies */}
+            <div>
+              <h3 className="text-lg font-semibold text-zinc-900 mb-3">Group Companies</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="bg-white rounded-lg p-4 border border-zinc-200 hover:shadow-md transition-shadow">
+                  <div className="flex items-center gap-2 mb-2">
+                    <div className="p-1 bg-[#fb5642]/10 rounded">
+                      <FiCheck className="text-[#fb5642]" />
+                    </div>
+                    <h4 className="font-medium text-zinc-900">Seasia Infotech</h4>
+                  </div>
+                  <p className="text-zinc-600 text-sm">Enterprise software development, IT modernization, and digital transformation.</p>
+                </div>
+                <div className="bg-white rounded-lg p-4 border border-zinc-200 hover:shadow-md transition-shadow">
+                  <div className="flex items-center gap-2 mb-2">
+                    <div className="p-1 bg-[#fb5642]/10 rounded">
+                      <FiCheck className="text-[#fb5642]" />
+                    </div>
+                    <h4 className="font-medium text-zinc-900">BugRaptors</h4>
+                  </div>
+                  <p className="text-zinc-600 text-sm">Leading independent QA & software testing company.</p>
+                </div>
+                <div className="bg-white rounded-lg p-4 border border-zinc-200 hover:shadow-md transition-shadow">
+                  <div className="flex items-center gap-2 mb-2">
+                    <div className="p-1 bg-[#fb5642]/10 rounded">
+                      <FiCheck className="text-[#fb5642]" />
+                    </div>
+                    <h4 className="font-medium text-zinc-900">MoogleLabs</h4>
+                  </div>
+                  <p className="text-zinc-600 text-sm">AI, blockchain, and data science innovation arm.</p>
+                </div>
+              </div>
+              <div className="mt-3 flex items-start gap-2">
+                <div className="mt-1.5 w-1.5 h-1.5 bg-[#fb5642] rounded-full flex-shrink-0"></div>
+                <p className="text-zinc-600">Together, they create a complete digital value chain — from strategy and engineering to assurance and innovation.</p>
+              </div>
+            </div>
+
+            {/* Core Differentiators */}
+            <div>
+              <h3 className="text-lg font-semibold text-zinc-900 mb-3">Core Differentiators (USPs)</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div className="bg-white rounded-lg p-4 border border-zinc-200 hover:shadow-md transition-shadow">
+                  <div className="flex items-start gap-2">
+                    <div className="p-1 bg-[#fb5642]/10 rounded mt-0.5">
+                      <FiAward className="text-[#fb5642]" />
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-zinc-900 mb-1">CMMI Level 5 Certified</h4>
+                      <p className="text-zinc-600 text-sm">Among the top 1% globally in process maturity.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-white rounded-lg p-4 border border-zinc-200 hover:shadow-md transition-shadow">
+                  <div className="flex items-start gap-2">
+                    <div className="p-1 bg-[#fb5642]/10 rounded mt-0.5">
+                      <FiTrendingUp className="text-[#fb5642]" />
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-zinc-900 mb-1">World-Class Service Delivery</h4>
+                      <p className="text-zinc-600 text-sm">Proven track record across industries and geographies.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-white rounded-lg p-4 border border-zinc-200 hover:shadow-md transition-shadow">
+                  <div className="flex items-start gap-2">
+                    <div className="p-1 bg-[#fb5642]/10 rounded mt-0.5">
+                      <FiSettings className="text-[#fb5642]" />
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-zinc-900 mb-1">10+ Proprietary Tools & Accelerators</h4>
+                      <p className="text-zinc-600 text-sm">Cutting-edge IPs that enhance delivery speed and efficiency.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-white rounded-lg p-4 border border-zinc-200 hover:shadow-md transition-shadow">
+                  <div className="flex items-start gap-2">
+                    <div className="p-1 bg-[#fb5642]/10 rounded mt-0.5">
+                      <FiUsers className="text-[#fb5642]" />
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-zinc-900 mb-1">SAM (Seasia Engagement Model)</h4>
+                      <p className="text-zinc-600 text-sm">Transparent, value-driven engagement framework.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-white rounded-lg p-4 border border-zinc-200 hover:shadow-md transition-shadow">
+                  <div className="flex items-start gap-2">
+                    <div className="p-1 bg-[#fb5642]/10 rounded mt-0.5">
+                      <FiGlobe className="text-[#fb5642]" />
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-zinc-900 mb-1">Global Delivery Network</h4>
+                      <p className="text-zinc-600 text-sm">Onshore, nearshore, and offshore models for agility and cost efficiency.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-white rounded-lg p-4 border border-zinc-200 hover:shadow-md transition-shadow">
+                  <div className="flex items-start gap-2">
+                    <div className="p-1 bg-[#fb5642]/10 rounded mt-0.5">
+                      <FiFileText className="text-[#fb5642]" />
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-zinc-900 mb-1">Comprehensive Certifications</h4>
+                      <p className="text-zinc-600 text-sm">ISO 9001, ISO 27001, and other industry-recognized standards.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Proprietary Tools & Accelerators */}
+            <div>
+              <h3 className="text-lg font-semibold text-zinc-900 mb-3">Proprietary Tools & Accelerators</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="bg-white rounded-lg p-4 border border-zinc-200 hover:shadow-md transition-shadow">
+                  <div className="flex items-start gap-3">
+                    <div className="p-2 bg-[#fb5642]/10 rounded-lg flex-shrink-0">
+                      <FiTarget className="text-[#fb5642]" />
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-zinc-900">SAM (Seasia Engagement Model)</h4>
+                      <p className="text-zinc-600 text-sm mt-1">Ensures outcome-driven, transparent engagement</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-white rounded-lg p-4 border border-zinc-200 hover:shadow-md transition-shadow">
+                  <div className="flex items-start gap-3">
+                    <div className="p-2 bg-[#fb5642]/10 rounded-lg flex-shrink-0">
+                      <FiSettings className="text-[#fb5642]" />
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-zinc-900">Seasia DevOps Suite</h4>
+                      <p className="text-zinc-600 text-sm mt-1">Streamlined CI/CD, faster deployment</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-white rounded-lg p-4 border border-zinc-200 hover:shadow-md transition-shadow">
+                  <div className="flex items-start gap-3">
+                    <div className="p-2 bg-[#fb5642]/10 rounded-lg flex-shrink-0">
+                      <FiCheck className="text-[#fb5642]" />
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-zinc-900">TestRaptor (BugRaptors)</h4>
+                      <p className="text-zinc-600 text-sm mt-1">Automated testing & QA accelerator</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-white rounded-lg p-4 border border-zinc-200 hover:shadow-md transition-shadow">
+                  <div className="flex items-start gap-3">
+                    <div className="p-2 bg-[#fb5642]/10 rounded-lg flex-shrink-0">
+                      <FiTrendingUp className="text-[#fb5642]" />
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-zinc-900">AI Rapid Pilot (MoogleLabs)</h4>
+                      <p className="text-zinc-600 text-sm mt-1">Quick ML model prototyping and deployment</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-white rounded-lg p-4 border border-zinc-200 hover:shadow-md transition-shadow">
+                  <div className="flex items-start gap-3">
+                    <div className="p-2 bg-[#fb5642]/10 rounded-lg flex-shrink-0">
+                      <FiBarChart2 className="text-[#fb5642]" />
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-zinc-900">DataIQ</h4>
+                      <p className="text-zinc-600 text-sm mt-1">Data migration and analytics accelerator</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-white rounded-lg p-4 border border-zinc-200 hover:shadow-md transition-shadow">
+                  <div className="flex items-start gap-3">
+                    <div className="p-2 bg-[#fb5642]/10 rounded-lg flex-shrink-0">
+                      <FiSettings className="text-[#fb5642]" />
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-zinc-900">App360</h4>
+                      <p className="text-zinc-600 text-sm mt-1">Mobile app performance & insights platform</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-white rounded-lg p-4 border border-zinc-200 hover:shadow-md transition-shadow">
+                  <div className="flex items-start gap-3">
+                    <div className="p-2 bg-[#fb5642]/10 rounded-lg flex-shrink-0">
+                      <FiGlobe className="text-[#fb5642]" />
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-zinc-900">CloudOps Console</h4>
+                      <p className="text-zinc-600 text-sm mt-1">Cloud optimization & cost governance</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-white rounded-lg p-4 border border-zinc-200 hover:shadow-md transition-shadow">
+                  <div className="flex items-start gap-3">
+                    <div className="p-2 bg-[#fb5642]/10 rounded-lg flex-shrink-0">
+                      <FiFileText className="text-[#fb5642]" />
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-zinc-900">CodeGuard</h4>
+                      <p className="text-zinc-600 text-sm mt-1">Automated code quality & security audits</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-white rounded-lg p-4 border border-zinc-200 hover:shadow-md transition-shadow">
+                  <div className="flex items-start gap-3">
+                    <div className="p-2 bg-[#fb5642]/10 rounded-lg flex-shrink-0">
+                      <FiUsers className="text-[#fb5642]" />
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-zinc-900">Engage+</h4>
+                      <p className="text-zinc-600 text-sm mt-1">Customer experience analytics tool</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-white rounded-lg p-4 border border-zinc-200 hover:shadow-md transition-shadow">
+                  <div className="flex items-start gap-3">
+                    <div className="p-2 bg-[#fb5642]/10 rounded-lg flex-shrink-0">
+                      <FiBriefcase className="text-[#fb5642]" />
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-zinc-900">SmartGov Framework</h4>
+                      <p className="text-zinc-600 text-sm mt-1">Pre-built modules for e-Governance solutions</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Global Delivery Focus */}
+            <div>
+              <h3 className="text-lg font-semibold text-zinc-900 mb-3">Global Delivery Focus</h3>
+              <div className="flex flex-wrap gap-2">
+                <span className="bg-zinc-100 text-zinc-800 text-xs px-3 py-1.5 rounded-full">Government & Public Sector</span>
+                <span className="bg-zinc-100 text-zinc-800 text-xs px-3 py-1.5 rounded-full">Healthcare & Life Sciences</span>
+                <span className="bg-zinc-100 text-zinc-800 text-xs px-3 py-1.5 rounded-full">BFSI & FinTech</span>
+                <span className="bg-zinc-100 text-zinc-800 text-xs px-3 py-1.5 rounded-full">Retail & eCommerce</span>
+                <span className="bg-zinc-100 text-zinc-800 text-xs px-3 py-1.5 rounded-full">Travel, Transport & Hospitality</span>
+                <span className="bg-zinc-100 text-zinc-800 text-xs px-3 py-1.5 rounded-full">Education & eLearning</span>
+              </div>
+            </div>
+
+            {/* Value Proposition */}
+            <div>
+              <h3 className="text-lg font-semibold text-zinc-900 mb-3">Value Proposition</h3>
+              <div className="bg-gradient-to-r from-[#fb5642]/10 to-orange-100 rounded-lg p-5 border border-[#fb5642]/20">
+                <p className="text-zinc-600 italic text-center mb-3">"World-Class Services. Proprietary Tools. Proven Outcomes."</p>
+                <div className="flex items-start gap-2">
+                  <div className="mt-1.5 w-1.5 h-1.5 bg-[#fb5642] rounded-full flex-shrink-0"></div>
+                  <p className="text-zinc-600">Seasia Group blends technology, innovation, and discipline to help enterprises accelerate digital transformation, enhance customer experience, and scale globally.</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Vision 2030 */}
+            <div>
+              <h3 className="text-lg font-semibold text-zinc-900 mb-3">Vision 2030</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="flex items-start gap-2 p-3 bg-white rounded-lg border border-zinc-200">
+                  <div className="p-1 bg-[#fb5642]/10 rounded mt-0.5">
+                    <FiTarget className="text-[#fb5642]" />
+                  </div>
+                  <p className="text-zinc-600">$100M+ Revenue Target</p>
+                </div>
+                <div className="flex items-start gap-2 p-3 bg-white rounded-lg border border-zinc-200">
+                  <div className="p-1 bg-[#fb5642]/10 rounded mt-0.5">
+                    <FiGlobe className="text-[#fb5642]" />
+                  </div>
+                  <p className="text-zinc-600">Expansion in North America, Europe & Middle East</p>
+                </div>
+                <div className="flex items-start gap-2 p-3 bg-white rounded-lg border border-zinc-200">
+                  <div className="p-1 bg-[#fb5642]/10 rounded mt-0.5">
+                    <FiTrendingUp className="text-[#fb5642]" />
+                  </div>
+                  <p className="text-zinc-600">Strengthen AI, Cloud, and Automation portfolio</p>
+                </div>
+                <div className="flex items-start gap-2 p-3 bg-white rounded-lg border border-zinc-200">
+                  <div className="p-1 bg-[#fb5642]/10 rounded mt-0.5">
+                    <FiSettings className="text-[#fb5642]" />
+                  </div>
+                  <p className="text-zinc-600">Continue to build IP-led growth through proprietary accelerators</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         {/* Activity Description */}
         <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">
           <div className="flex items-center gap-3 mb-6">
@@ -157,7 +472,7 @@ export default function GeneralPresentation() {
             <div>
               <h3 className="text-lg font-semibold text-zinc-900 mb-3">Overview</h3>
               <p className="text-zinc-600 leading-relaxed">
-              Seasia Group possesses deep-rooted expertise in digital product engineering and AI-first service lines, the Group empowers businesses through end-to-end outsourced product development, AI-augmented quality engineering, and next-gen AI solutions including GenAI, AI/ML consulting, and intelligent automation. This future-ready capability enables the Group to consistently compete with industry giants. Its AI-driven methodology serves as a blueprint to conceptualize, scale, and launch innovative digital products faster and more efficiently.              </p>
+                Seasia Group possesses deep-rooted expertise in digital product engineering and AI-first service lines, the Group empowers businesses through end-to-end outsourced product development, AI-augmented quality engineering, and next-gen AI solutions including GenAI, AI/ML consulting, and intelligent automation. This future-ready capability enables the Group to consistently compete with industry giants. Its AI-driven methodology serves as a blueprint to conceptualize, scale, and launch innovative digital products faster and more efficiently.              </p>
             </div>
 
             {/* Core Activities */}
@@ -424,7 +739,7 @@ export default function GeneralPresentation() {
         </div>
 
         {/* Staff Information */}
-       
+
 
         {/* Areas of Expertise and Core Business */}
         <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">

@@ -795,6 +795,8 @@ export default function StaffAnalysis() {
           </div>
         </div>
 
+       
+
         {/* Bench Analysis */}
         <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">
           <div className="flex items-center gap-3 mb-4">
