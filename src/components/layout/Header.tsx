@@ -46,7 +46,7 @@ export default function Header({ onMenuClick, sidebarOpen }: HeaderProps) {
 
   return (
     <header className="fixed top-0 right-0 z-30 h-16 w-full lg:w-[calc(100%-16rem)] lg:left-64 border-b border-zinc-200 bg-white">
-      <div className="flex h-full items-center justify-between px-4 lg:px-6">
+      <div className="flex h-full items-center justify-end px-4 lg:px-6">
         {/* Mobile Menu Button */}
         <button
           onClick={onMenuClick}
@@ -56,67 +56,12 @@ export default function Header({ onMenuClick, sidebarOpen }: HeaderProps) {
           {sidebarOpen ? <FiX className="h-5 w-5" /> : <FiMenu className="h-5 w-5" />}
         </button>
 
-        {/* Search Bar */}
-        <div className="hidden md:flex flex-1 max-w-md mx-4 lg:mx-8">
-          <div className="relative w-full">
-            <FiSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-zinc-400 h-5 w-5" />
-            <input
-              type="text"
-              placeholder="Search businesses, reports..."
-              className="w-full pl-10 pr-4 py-2 rounded-lg border border-zinc-300 bg-white text-zinc-900 placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
-            />
-          </div>
-        </div>
 
         {/* Right Side Actions */}
-        <div className="flex items-center gap-2">
-          {/* Mobile Search */}
-          <button
-            className="md:hidden p-2 rounded-lg hover:bg-zinc-100 text-zinc-700"
-            aria-label="Search"
-          >
-            <FiSearch className="h-5 w-5" />
-          </button>
+        <div className="flex items-center  gap-2">
+        
 
-          {/* Notifications */}
-          <div className="relative" ref={notificationsRef}>
-            <button
-              onClick={() => setShowNotifications(!showNotifications)}
-              className="relative p-2 rounded-lg hover:bg-zinc-100 text-zinc-700"
-              aria-label="Notifications"
-            >
-              <FiBell className="h-5 w-5" />
-              <span className="absolute top-1 right-1 h-2 w-2 bg-orange-500 rounded-full border-2 border-white"></span>
-            </button>
-
-            {showNotifications && (
-              <div className="absolute right-0 mt-2 w-80 bg-white rounded-lg shadow-lg border border-zinc-200 py-2 z-50">
-                <div className="px-4 py-2 border-b border-zinc-200">
-                  <h3 className="text-sm font-semibold text-zinc-900">
-                    Notifications
-                  </h3>
-                </div>
-                <div className="max-h-64 overflow-y-auto">
-                  <div className="px-4 py-3 hover:bg-zinc-50 cursor-pointer">
-                    <p className="text-sm text-zinc-900">
-                      New business profile added
-                    </p>
-                    <p className="text-xs text-zinc-500 mt-1">
-                      2 minutes ago
-                    </p>
-                  </div>
-                  <div className="px-4 py-3 hover:bg-zinc-50 cursor-pointer">
-                    <p className="text-sm text-zinc-900">
-                      Revenue report generated
-                    </p>
-                    <p className="text-xs text-zinc-500 mt-1">
-                      1 hour ago
-                    </p>
-                  </div>
-                </div>
-              </div>
-            )}
-          </div>
+         
 
           {/* User Menu */}
           <div className="relative" ref={userMenuRef}>

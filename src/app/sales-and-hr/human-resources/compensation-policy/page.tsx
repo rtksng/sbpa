@@ -1,4 +1,4 @@
-import { FiDollarSign, FiTrendingUp, FiUsers, FiAward, FiBriefcase, FiFileText, FiCalendar, FiCreditCard, FiBarChart2, FiCheckCircle, FiClock } from 'react-icons/fi';
+import { FiDollarSign, FiTrendingUp, FiUsers, FiAward, FiBriefcase, FiFileText, FiCalendar, FiCreditCard, FiBarChart2, FiCheckCircle, FiClock, FiUser, FiUserCheck } from 'react-icons/fi';
 
 export default function CompensationPolicy() {
   return (
@@ -272,21 +272,41 @@ export default function CompensationPolicy() {
                       <h4 className="text-lg font-semibold text-zinc-900">Roles in the Appraisal Process</h4>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                      <div>
-                        <p className="text-lg font-medium text-zinc-900 mb-1">Employee</p>
-                        <p className="text-lg text-zinc-600">Self-assessment, set personal goals, reflect on achievements and development areas.</p>
+                      <div className="bg-white rounded-lg p-4 border border-zinc-200 transition-shadow duration-200 hover:shadow-lg">
+                        <div className="flex items-center gap-2 mb-3">
+                          <div className="p-1.5 bg-[#fb5642] rounded">
+                            <FiUser className="text-white" size={16} />
+                          </div>
+                          <h5 className="text-lg font-semibold text-zinc-900">Employee</h5>
+                        </div>
+                        <p className="text-sm text-zinc-600">Self-assessment, set personal goals, reflect on achievements and development areas.</p>
                       </div>
-                      <div>
-                        <p className="text-lg font-medium text-zinc-900 mb-1">Manager / Supervisor</p>
-                        <p className="text-lg text-zinc-600">Evaluate employee performance against goals, provide feedback, identify strengths and development needs, recommend rewards or improvement plans.</p>
+                      <div className="bg-white rounded-lg p-4 border border-zinc-200 transition-shadow duration-200 hover:shadow-lg">
+                        <div className="flex items-center gap-2 mb-3">
+                          <div className="p-1.5 bg-[#fb5642] rounded">
+                            <FiUserCheck className="text-white" size={16} />
+                          </div>
+                          <h5 className="text-lg font-semibold text-zinc-900">Manager / Supervisor</h5>
+                        </div>
+                        <p className="text-sm text-zinc-600">Evaluate employee performance against goals, provide feedback, identify strengths and development needs, recommend rewards or improvement plans.</p>
                       </div>
-                      <div>
-                        <p className="text-lg font-medium text-zinc-900 mb-1">HR / Talent Management</p>
-                        <p className="text-lg text-zinc-600">Design appraisal framework, provide guidance, ensure consistency and compliance, collect ratings, and compile overall performance data.</p>
+                      <div className="bg-white rounded-lg p-4 border border-zinc-200 transition-shadow duration-200 hover:shadow-lg">
+                        <div className="flex items-center gap-2 mb-3">
+                          <div className="p-1.5 bg-[#fb5642] rounded">
+                            <FiFileText className="text-white" size={16} />
+                          </div>
+                          <h5 className="text-lg font-semibold text-zinc-900">HR / Talent Management</h5>
+                        </div>
+                        <p className="text-sm text-zinc-600">Design appraisal framework, provide guidance, ensure consistency and compliance, collect ratings, and compile overall performance data.</p>
                       </div>
-                      <div>
-                        <p className="text-lg font-medium text-zinc-900 mb-1">Senior Management</p>
-                        <p className="text-lg text-zinc-600">Approve final ratings, ensure fairness, and align appraisal outcomes with organizational objectives.</p>
+                      <div className="bg-white rounded-lg p-4 border border-zinc-200 transition-shadow duration-200 hover:shadow-lg">
+                        <div className="flex items-center gap-2 mb-3">
+                          <div className="p-1.5 bg-[#fb5642] rounded">
+                            <FiAward className="text-white" size={16} />
+                          </div>
+                          <h5 className="text-lg font-semibold text-zinc-900">Senior Management</h5>
+                        </div>
+                        <p className="text-sm text-zinc-600">Approve final ratings, ensure fairness, and align appraisal outcomes with organizational objectives.</p>
                       </div>
                     </div>
                   </div>
@@ -529,27 +549,50 @@ export default function CompensationPolicy() {
             <div className="space-y-4 mb-6">
               <div className="bg-white rounded-lg p-4 border border-zinc-200 transition-shadow duration-200 hover:shadow-lg">
                 <div className="flex items-center gap-2 mb-2">
-                  <div className="p-1.5 bg-[#fb5642]/10 rounded">
-                    <FiUsers className="text-[#fb5642]" size={16} />
+                  <div className="p-1.5 bg-[#fb5642] rounded">
+                    <FiUsers className="text-white" size={16} />
                   </div>
                   <h3 className="text-lg font-semibold text-zinc-900">
                     Travel Policy by Employee Category (consultants, admin staff, management etc) and Billable vs Non-Billable Travel
                 </h3>
                 </div>
                 <p className="text-lg text-zinc-600">Travel policies vary by employee category and whether travel is billable to clients or company-funded. Billable travel is reimbursed at cost plus markup, while non-billable travel follows expense reimbursement guidelines.</p>
-                <div className="mt-2 grid grid-cols-1 md:grid-cols-2 gap-3">
-                  <div>
-                    <p className="text-lg font-medium text-zinc-900 mb-1">Consultants:</p>
-                    <p className="text-lg text-zinc-600">Billable: Full reimbursement plus 15% markup for client billing</p>
-                    <p className="text-lg text-zinc-600">Non-billable: Economy class flights, mid-range hotels, standard per diem</p>
+                <div className="mt-4 grid grid-cols-1 md:grid-cols-3 gap-4">
+                  <div className="bg-white rounded-lg p-4 border border-zinc-200 transition-shadow duration-200 hover:shadow-lg">
+                    <div className="flex items-center gap-2 mb-3">
+                      <div className="p-1.5 bg-[#fb5642]/10 rounded">
+                        <FiUsers className="text-[#fb5642]" size={16} />
+                      </div>
+                      <h4 className="text-lg font-semibold text-zinc-900">Consultants</h4>
+                    </div>
+                    <div className="space-y-2">
+                      <div>
+                        <p className="text-sm font-medium text-zinc-900 mb-1">Billable:</p>
+                        <p className="text-sm text-zinc-600">Full reimbursement plus 15% markup for client billing</p>
+                      </div>
+                      <div>
+                        <p className="text-sm font-medium text-zinc-900 mb-1">Non-billable:</p>
+                        <p className="text-sm text-zinc-600">Economy class flights, mid-range hotels, standard per diem</p>
+                      </div>
+                    </div>
                   </div>
-                  <div>
-                    <p className="text-lg font-medium text-zinc-900 mb-1">Admin Staff:</p>
-                    <p className="text-lg text-zinc-600">Limited to essential business travel only, economy class, budget hotels</p>
+                  <div className="bg-white rounded-lg p-4 border border-zinc-200 transition-shadow duration-200 hover:shadow-lg">
+                    <div className="flex items-center gap-2 mb-3">
+                      <div className="p-1.5 bg-[#fb5642]/10 rounded">
+                        <FiBriefcase className="text-[#fb5642]" size={16} />
+                      </div>
+                      <h4 className="text-lg font-semibold text-zinc-900">Admin Staff</h4>
+                    </div>
+                    <p className="text-sm text-zinc-600">Limited to essential business travel only, economy class, budget hotels</p>
                   </div>
-                  <div>
-                    <p className="text-lg font-medium text-zinc-900 mb-1">Management:</p>
-                    <p className="text-lg text-zinc-600">Business class for international flights over 6 hours, premium hotels for client meetings</p>
+                  <div className="bg-white rounded-lg p-4 border border-zinc-200 transition-shadow duration-200 hover:shadow-lg">
+                    <div className="flex items-center gap-2 mb-3">
+                      <div className="p-1.5 bg-[#fb5642]/10 rounded">
+                        <FiAward className="text-[#fb5642]" size={16} />
+                      </div>
+                      <h4 className="text-lg font-semibold text-zinc-900">Management</h4>
+                    </div>
+                    <p className="text-sm text-zinc-600">Business class for international flights over 6 hours, premium hotels for client meetings</p>
                   </div>
                 </div>
               </div>
