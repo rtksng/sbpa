@@ -61,15 +61,8 @@ const navigation: NavItem[] = [
   },
   {
     name: 'Finance',
+    href: '/finance-department',
     icon: <FiBriefcase />,
-    children: [
-      { name: 'Overview', href: '/finance-department/presentation-and-organization' },
-      { name: 'Auditors & CPA', href: '/finance-department/auditors-and-external-cpa' },
-      { name: 'Reporting & Calendar', href: '/finance-department/financial-reporting-and-financial-calendar' },
-      { name: 'FPP Monitoring', href: '/finance-department/monitoring-procedure-fixed-price-contracts' },
-      { name: 'Sales Admin', href: '/finance-department/sales-administration-process' },
-      { name: 'Credit & Payments', href: '/finance-department/client-credit-control-and-payment-terms' },
-    ]
   },
   
   {

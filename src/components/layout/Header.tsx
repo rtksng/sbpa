@@ -57,50 +57,7 @@ export default function Header({ onMenuClick, sidebarOpen }: HeaderProps) {
         </button>
 
 
-        {/* Right Side Actions */}
-        <div className="flex items-center  gap-2">
         
-
-         
-
-          {/* User Menu */}
-          <div className="relative" ref={userMenuRef}>
-            <button
-              onClick={() => setShowUserMenu(!showUserMenu)}
-              className="flex items-center gap-2 p-2 rounded-lg hover:bg-zinc-100"
-              aria-label="User menu"
-            >
-              <div className="h-8 w-8 rounded-full bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center text-white text-sm font-semibold">
-                JD
-              </div>
-            </button>
-
-            {showUserMenu && (
-              <div className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-zinc-200 py-2 z-50">
-                <div className="px-4 py-2 border-b border-zinc-200">
-                  <p className="text-sm font-semibold text-zinc-900">
-                    John Doe
-                  </p>
-                  <p className="text-xs text-zinc-500">
-                    john.doe@example.com
-                  </p>
-                </div>
-                <button className="w-full flex items-center gap-2 px-4 py-2 text-sm text-zinc-700 hover:bg-zinc-50">
-                  <FiUser className="h-4 w-4" />
-                  Profile
-                </button>
-                <button className="w-full flex items-center gap-2 px-4 py-2 text-sm text-zinc-700 hover:bg-zinc-50">
-                  <FiSettings className="h-4 w-4" />
-                  Settings
-                </button>
-                <button className="w-full flex items-center gap-2 px-4 py-2 text-sm text-red-600 hover:bg-zinc-50">
-                  <FiLogOut className="h-4 w-4" />
-                  Logout
-                </button>
-              </div>
-            )}
-          </div>
-        </div>
       </div>
     </header>
   );

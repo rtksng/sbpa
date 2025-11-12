@@ -199,27 +199,27 @@ export default function GeneralPresentation() {
                     <div className="p-1 bg-[#fb5642]/10 rounded">
                       <FiCheck className="text-[#fb5642]" />
                     </div>
-                    <h4 className="font-medium text-zinc-900">Seasia Infotech</h4>
+                    <h4 className="font-medium text-zinc-900 text-lg">Seasia Infotech</h4>
                   </div>
-                  <p className="text-zinc-600 text-sm">Enterprise software development, IT modernization, and digital transformation.</p>
+                  <p className="text-zinc-600 text-base">Enterprise software development, IT modernization, and digital transformation.</p>
                 </div>
                 <div className="bg-white rounded-lg p-4 border border-zinc-200 hover:shadow-md transition-shadow">
                   <div className="flex items-center gap-2 mb-2">
                     <div className="p-1 bg-[#fb5642]/10 rounded">
                       <FiCheck className="text-[#fb5642]" />
                     </div>
-                    <h4 className="font-medium text-zinc-900">BugRaptors</h4>
+                    <h4 className="font-medium text-zinc-900 text-lg">BugRaptors</h4>
                   </div>
-                  <p className="text-zinc-600 text-sm">Leading independent QA & software testing company.</p>
+                  <p className="text-zinc-600 text-base">Leading independent QA & software testing company.</p>
                 </div>
                 <div className="bg-white rounded-lg p-4 border border-zinc-200 hover:shadow-md transition-shadow">
                   <div className="flex items-center gap-2 mb-2">
                     <div className="p-1 bg-[#fb5642]/10 rounded">
                       <FiCheck className="text-[#fb5642]" />
                     </div>
-                    <h4 className="font-medium text-zinc-900">MoogleLabs</h4>
+                    <h4 className="font-medium text-zinc-900 text-lg">MoogleLabs</h4>
                   </div>
-                  <p className="text-zinc-600 text-sm">AI, blockchain, and data science innovation arm.</p>
+                  <p className="text-zinc-600 text-base">AI, blockchain, and data science innovation arm.</p>
                 </div>
               </div>
               <div className="mt-3 flex items-start gap-2">
@@ -238,8 +238,8 @@ export default function GeneralPresentation() {
                       <FiAward className="text-[#fb5642]" />
                     </div>
                     <div>
-                      <h4 className="font-medium text-zinc-900 mb-1">CMMI Level 5 Certified</h4>
-                      <p className="text-zinc-600 text-sm">Among the top 1% globally in process maturity.</p>
+                      <h4 className="font-medium text-zinc-900 mb-1 text-lg">CMMI Level 5 Certified</h4>
+                      <p className="text-zinc-600 text-base">Among the top 1% globally in process maturity.</p>
                     </div>
                   </div>
                 </div>
@@ -249,8 +249,8 @@ export default function GeneralPresentation() {
                       <FiTrendingUp className="text-[#fb5642]" />
                     </div>
                     <div>
-                      <h4 className="font-medium text-zinc-900 mb-1">World-Class Service Delivery</h4>
-                      <p className="text-zinc-600 text-sm">Proven track record across industries and geographies.</p>
+                      <h4 className="font-medium text-zinc-900 mb-1 text-lg">World-Class Service Delivery</h4>
+                      <p className="text-zinc-600 text-base">Proven track record across industries and geographies.</p>
                     </div>
                   </div>
                 </div>
@@ -260,8 +260,8 @@ export default function GeneralPresentation() {
                       <FiSettings className="text-[#fb5642]" />
                     </div>
                     <div>
-                      <h4 className="font-medium text-zinc-900 mb-1">10+ Proprietary Tools & Accelerators</h4>
-                      <p className="text-zinc-600 text-sm">Cutting-edge IPs that enhance delivery speed and efficiency.</p>
+                      <h4 className="font-medium text-zinc-900 mb-1 text-lg">10+ Proprietary Tools & Accelerators</h4>
+                      <p className="text-zinc-600 text-base">Cutting-edge IPs that enhance delivery speed and efficiency.</p>
                     </div>
                   </div>
                 </div>
@@ -271,8 +271,8 @@ export default function GeneralPresentation() {
                       <FiUsers className="text-[#fb5642]" />
                     </div>
                     <div>
-                      <h4 className="font-medium text-zinc-900 mb-1">SAM (Seasia Engagement Model)</h4>
-                      <p className="text-zinc-600 text-sm">Transparent, value-driven engagement framework.</p>
+                      <h4 className="font-medium text-zinc-900 mb-1 text-lg">SAM (Seasia Engagement Model)</h4>
+                      <p className="text-zinc-600 text-base">Transparent, value-driven engagement framework.</p>
                     </div>
                   </div>
                 </div>
@@ -282,8 +282,8 @@ export default function GeneralPresentation() {
                       <FiGlobe className="text-[#fb5642]" />
                     </div>
                     <div>
-                      <h4 className="font-medium text-zinc-900 mb-1">Global Delivery Network</h4>
-                      <p className="text-zinc-600 text-sm">Onshore, nearshore, and offshore models for agility and cost efficiency.</p>
+                      <h4 className="font-medium text-zinc-900 mb-1 text-lg">Global Delivery Network</h4>
+                      <p className="text-zinc-600 text-base">Onshore, nearshore, and offshore models for agility and cost efficiency.</p>
                     </div>
                   </div>
                 </div>
@@ -293,8 +293,8 @@ export default function GeneralPresentation() {
                       <FiFileText className="text-[#fb5642]" />
                     </div>
                     <div>
-                      <h4 className="font-medium text-zinc-900 mb-1">Comprehensive Certifications</h4>
-                      <p className="text-zinc-600 text-sm">ISO 9001, ISO 27001, and other industry-recognized standards.</p>
+                      <h4 className="font-medium text-zinc-900 mb-1 text-lg">Comprehensive Certifications</h4>
+                      <p className="text-zinc-600 text-base">ISO 9001, ISO 27001, and other industry-recognized standards.</p>
                     </div>
                   </div>
                 </div>
@@ -311,8 +311,8 @@ export default function GeneralPresentation() {
                       <FiTarget className="text-[#fb5642]" />
                     </div>
                     <div>
-                      <h4 className="font-medium text-zinc-900">SAM (Seasia Engagement Model)</h4>
-                      <p className="text-zinc-600 text-sm mt-1">Ensures outcome-driven, transparent engagement</p>
+                      <h4 className="font-medium text-zinc-900 text-lg">SAM (Seasia Engagement Model)</h4>
+                      <p className="text-zinc-600 text-base mt-1">Ensures outcome-driven, transparent engagement</p>
                     </div>
                   </div>
                 </div>
@@ -322,8 +322,8 @@ export default function GeneralPresentation() {
                       <FiSettings className="text-[#fb5642]" />
                     </div>
                     <div>
-                      <h4 className="font-medium text-zinc-900">Seasia DevOps Suite</h4>
-                      <p className="text-zinc-600 text-sm mt-1">Streamlined CI/CD, faster deployment</p>
+                      <h4 className="font-medium text-zinc-900 text-lg">Seasia DevOps Suite</h4>
+                      <p className="text-zinc-600 text-base mt-1">Streamlined CI/CD, faster deployment</p>
                     </div>
                   </div>
                 </div>
@@ -333,8 +333,8 @@ export default function GeneralPresentation() {
                       <FiCheck className="text-[#fb5642]" />
                     </div>
                     <div>
-                      <h4 className="font-medium text-zinc-900">TestRaptor (BugRaptors)</h4>
-                      <p className="text-zinc-600 text-sm mt-1">Automated testing & QA accelerator</p>
+                      <h4 className="font-medium text-zinc-900 text-lg">TestRaptor (BugRaptors)</h4>
+                      <p className="text-zinc-600 text-base mt-1">Automated testing & QA accelerator</p>
                     </div>
                   </div>
                 </div>
@@ -344,8 +344,8 @@ export default function GeneralPresentation() {
                       <FiTrendingUp className="text-[#fb5642]" />
                     </div>
                     <div>
-                      <h4 className="font-medium text-zinc-900">AI Rapid Pilot (MoogleLabs)</h4>
-                      <p className="text-zinc-600 text-sm mt-1">Quick ML model prototyping and deployment</p>
+                      <h4 className="font-medium text-zinc-900 text-lg">AI Rapid Pilot (MoogleLabs)</h4>
+                      <p className="text-zinc-600 text-base mt-1">Quick ML model prototyping and deployment</p>
                     </div>
                   </div>
                 </div>
@@ -355,8 +355,8 @@ export default function GeneralPresentation() {
                       <FiBarChart2 className="text-[#fb5642]" />
                     </div>
                     <div>
-                      <h4 className="font-medium text-zinc-900">DataIQ</h4>
-                      <p className="text-zinc-600 text-sm mt-1">Data migration and analytics accelerator</p>
+                      <h4 className="font-medium text-zinc-900 text-lg">DataIQ</h4>
+                      <p className="text-zinc-600 text-base mt-1">Data migration and analytics accelerator</p>
                     </div>
                   </div>
                 </div>
@@ -366,8 +366,8 @@ export default function GeneralPresentation() {
                       <FiSettings className="text-[#fb5642]" />
                     </div>
                     <div>
-                      <h4 className="font-medium text-zinc-900">App360</h4>
-                      <p className="text-zinc-600 text-sm mt-1">Mobile app performance & insights platform</p>
+                      <h4 className="font-medium text-zinc-900 text-lg">App360</h4>
+                      <p className="text-zinc-600 text-base mt-1">Mobile app performance & insights platform</p>
                     </div>
                   </div>
                 </div>
@@ -377,8 +377,8 @@ export default function GeneralPresentation() {
                       <FiGlobe className="text-[#fb5642]" />
                     </div>
                     <div>
-                      <h4 className="font-medium text-zinc-900">CloudOps Console</h4>
-                      <p className="text-zinc-600 text-sm mt-1">Cloud optimization & cost governance</p>
+                      <h4 className="font-medium text-zinc-900 text-lg">CloudOps Console</h4>
+                      <p className="text-zinc-600 text-base mt-1">Cloud optimization & cost governance</p>
                     </div>
                   </div>
                 </div>
@@ -388,8 +388,8 @@ export default function GeneralPresentation() {
                       <FiFileText className="text-[#fb5642]" />
                     </div>
                     <div>
-                      <h4 className="font-medium text-zinc-900">CodeGuard</h4>
-                      <p className="text-zinc-600 text-sm mt-1">Automated code quality & security audits</p>
+                      <h4 className="font-medium text-zinc-900 text-lg">CodeGuard</h4>
+                      <p className="text-zinc-600 text-base mt-1">Automated code quality & security audits</p>
                     </div>
                   </div>
                 </div>
@@ -399,8 +399,8 @@ export default function GeneralPresentation() {
                       <FiUsers className="text-[#fb5642]" />
                     </div>
                     <div>
-                      <h4 className="font-medium text-zinc-900">Engage+</h4>
-                      <p className="text-zinc-600 text-sm mt-1">Customer experience analytics tool</p>
+                      <h4 className="font-medium text-zinc-900 text-lg">Engage+</h4>
+                      <p className="text-zinc-600 text-base mt-1">Customer experience analytics tool</p>
                     </div>
                   </div>
                 </div>
@@ -410,8 +410,8 @@ export default function GeneralPresentation() {
                       <FiBriefcase className="text-[#fb5642]" />
                     </div>
                     <div>
-                      <h4 className="font-medium text-zinc-900">SmartGov Framework</h4>
-                      <p className="text-zinc-600 text-sm mt-1">Pre-built modules for e-Governance solutions</p>
+                      <h4 className="font-medium text-zinc-900 text-lg">SmartGov Framework</h4>
+                      <p className="text-zinc-600 text-base mt-1">Pre-built modules for e-Governance solutions</p>
                     </div>
                   </div>
                 </div>
@@ -422,12 +422,12 @@ export default function GeneralPresentation() {
             <div>
               <h3 className="text-lg font-semibold text-zinc-900 mb-3">Global Delivery Focus</h3>
               <div className="flex flex-wrap gap-2">
-                <span className="bg-zinc-100 text-zinc-800 text-xs px-3 py-1.5 rounded-full">Government & Public Sector</span>
-                <span className="bg-zinc-100 text-zinc-800 text-xs px-3 py-1.5 rounded-full">Healthcare & Life Sciences</span>
-                <span className="bg-zinc-100 text-zinc-800 text-xs px-3 py-1.5 rounded-full">BFSI & FinTech</span>
-                <span className="bg-zinc-100 text-zinc-800 text-xs px-3 py-1.5 rounded-full">Retail & eCommerce</span>
-                <span className="bg-zinc-100 text-zinc-800 text-xs px-3 py-1.5 rounded-full">Travel, Transport & Hospitality</span>
-                <span className="bg-zinc-100 text-zinc-800 text-xs px-3 py-1.5 rounded-full">Education & eLearning</span>
+                <span className="bg-zinc-100 text-zinc-800 text-sm px-3 py-1.5 rounded-full">Government & Public Sector</span>
+                <span className="bg-zinc-100 text-zinc-800 text-sm px-3 py-1.5 rounded-full">Healthcare & Life Sciences</span>
+                <span className="bg-zinc-100 text-zinc-800 text-sm px-3 py-1.5 rounded-full">BFSI & FinTech</span>
+                <span className="bg-zinc-100 text-zinc-800 text-sm px-3 py-1.5 rounded-full">Retail & eCommerce</span>
+                <span className="bg-zinc-100 text-zinc-800 text-sm px-3 py-1.5 rounded-full">Travel, Transport & Hospitality</span>
+                <span className="bg-zinc-100 text-zinc-800 text-sm px-3 py-1.5 rounded-full">Education & eLearning</span>
               </div>
             </div>
 
@@ -717,7 +717,7 @@ export default function GeneralPresentation() {
             </div>
           </div> */}
 
-          <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm">
+          {/* <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm">
             <div className="flex items-center gap-3 mb-4">
               <div className="p-2 bg-blue-50 rounded-lg">
                 <FiAward className="text-blue-600" />
@@ -736,7 +736,7 @@ export default function GeneralPresentation() {
                 View PDF
               </button>
             </Link>
-          </div>
+          </div> */}
 
           {/* <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm">
             <div className="flex items-center gap-3 mb-4">

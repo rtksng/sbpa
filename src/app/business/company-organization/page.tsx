@@ -331,7 +331,7 @@ export default function CompanyOrganization() {
                 <div className="flex items-center gap-4 mb-5 pb-5 border-b-2 border-zinc-300">
                   <div className="w-20 h-20 rounded-full overflow-hidden bg-zinc-100 shrink-0 ring-2 ring-zinc-200">
                     <Image
-                      src="/employees-images/Engineering/Ganesh-Verma.png"
+                      src="/employees-images/Leadership/Ganesh-Verma.png"
                       alt="Ganesh Verma"
                       width={80}
                       height={80}
@@ -371,7 +371,7 @@ export default function CompanyOrganization() {
                 <div className="flex items-center gap-4 mb-5 pb-5 border-b-2 border-zinc-300">
                   <div className="w-20 h-20 rounded-full overflow-hidden bg-zinc-100 shrink-0 ring-2 ring-zinc-200">
                     <Image
-                      src="/employees-images/Engineering/yashu-kapila.png"
+                      src="/employees-images/Leadership/yashu-kapila.png"
                       alt="Yashu Kapila"
                       width={80}
                       height={80}
@@ -411,7 +411,7 @@ export default function CompanyOrganization() {
                 <div className="flex items-center gap-4 mb-5 pb-5 border-b-2 border-zinc-300">
                   <div className="w-20 h-20 rounded-full overflow-hidden bg-zinc-100 shrink-0 ring-2 ring-zinc-200">
                     <Image
-                      src="/employees-images/Sales-Marketing/Anil-Rana.png"
+                      src="/employees-images/Leadership/Anil-Rana.jpg"
                       alt="Anil Rana"
                       width={80}
                       height={80}
@@ -451,7 +451,7 @@ export default function CompanyOrganization() {
                 <div className="flex items-center gap-4 mb-5 pb-5 border-b-2 border-zinc-300">
                   <div className="w-20 h-20 rounded-full overflow-hidden bg-zinc-100 shrink-0 ring-2 ring-zinc-200">
                     <Image
-                      src="/employees-images/Engineering/Amardeep-Pundir.png"
+                      src="/employees-images/Leadership/Amardeep-Pundir.jpg"
                       alt="Amardeep Pundir"
                       width={80}
                       height={80}
@@ -491,7 +491,7 @@ export default function CompanyOrganization() {
                 <div className="flex items-center gap-4 mb-5 pb-5 border-b-2 border-zinc-300">
                   <div className="w-20 h-20 rounded-full overflow-hidden bg-zinc-100 shrink-0 ring-2 ring-zinc-200">
                     <Image
-                      src="/employees-images/UI-UX/Abhishek-Vasudev.png"
+                      src="/employees-images/Leadership/Abhishek-Vasudev.jpg"
                       alt="Abhishek Vasudev"
                       width={80}
                       height={80}
@@ -531,7 +531,7 @@ export default function CompanyOrganization() {
                 <div className="flex items-center gap-4 mb-5 pb-5 border-b-2 border-zinc-300">
                   <div className="w-20 h-20 rounded-full overflow-hidden bg-zinc-100 shrink-0 ring-2 ring-zinc-200">
                     <Image
-                      src="/employees-images/IT/JB.png"
+                      src="/employees-images/Leadership/JB.jpg"
                       alt="Jatinder Bawa"
                       width={80}
                       height={80}
@@ -571,7 +571,7 @@ export default function CompanyOrganization() {
                 <div className="flex items-center gap-4 mb-5 pb-5 border-b-2 border-zinc-300">
                   <div className="w-20 h-20 rounded-full overflow-hidden bg-zinc-100 shrink-0 ring-2 ring-zinc-200">
                     <Image
-                      src="/employees-images/HR/Harpreet-Kaur.png"
+                      src="/employees-images/Leadership/Harpreet-Kaur.jfif"
                       alt="Dr. Harpreet Kaur"
                       width={80}
                       height={80}
