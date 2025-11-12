@@ -15,17 +15,7 @@ export default function StaffAnalysis() {
           "2LakhAndAbove": 25
         }
       },
-      {
-        employeeType: "Moogle Canada",
-        total: 4,
-        billingRanges: {
-          "0-50k": null,
-          "50k-1Lakh": null,
-          "1Lakh-1.5Lakh": null,
-          "1.5Lakh-2Lakh": null,
-          "2LakhAndAbove": null
-        }
-      },
+     
       {
         employeeType: "Subcontractors (B2B)",
         total: 19,
