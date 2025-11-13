@@ -1317,7 +1317,7 @@ export default function GeneralPresentation() {
           </div>
 
           {/* Prospective & Strategic Clients */}
-          <div>
+          {/* <div>
             <h3 className="text-lg font-semibold text-zinc-900 mb-4">Prospective & Strategic Clients</h3>
             <p className="text-zinc-600 leading-relaxed mb-6">
               Seasia's prospect pipeline for the coming fiscal period reflects its growing positioning as a digital engineering and transformation partner to global enterprises and innovation platforms.
@@ -1384,7 +1384,7 @@ export default function GeneralPresentation() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Delivery Model */}
