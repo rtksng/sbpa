@@ -5,7 +5,7 @@ export default function StaffAnalysis() {
     fiscalYear: "FY 2025",
     categories: [
       {
-        employeeType: "Consultant",
+        employeeType: "Consultants",
         total: 375,
         billingRanges: {
           "0-50k": 168,
@@ -15,7 +15,7 @@ export default function StaffAnalysis() {
           "2LakhAndAbove": 25
         }
       },
-     
+
       {
         employeeType: "Subcontractors (B2B)",
         total: 19,
@@ -62,44 +62,25 @@ export default function StaffAnalysis() {
         count: 3
       },
       {
-        department: "Other",
-        count: 375
+        department: "Others",
+        count: 394
       }
     ],
-    total: 433
+    total: 452
   };
 
   const locationData = {
     locations: [
       {
-        cityCountry: "Tricity",
-        consultants: 155
+        cityCountry: "North India",
+        consultants: 360
       },
       {
-        cityCountry: "Haryana",
-        consultants: 97
-      },
-      {
-        cityCountry: "Bihar",
-        consultants: 12
-      },
-      {
-        cityCountry: "Rajasthan",
-        consultants: 13
-      },
-      {
-        cityCountry: "Dehradun",
-        consultants: 9
-      },
-      {
-        cityCountry: "Himachal",
-        consultants: 79
-      },
-      {
-        cityCountry: "UP",
-        consultants: 10
+        cityCountry: "Others",
+        consultants: 34
       }
-    ]
+    ],
+    total: 394
   };
 
   const ageDistribution = {
@@ -198,7 +179,7 @@ export default function StaffAnalysis() {
           <p className="text-zinc-600">
             Comprehensive staff analysis, demographics, location, education, and organizational breakdown
           </p>
-          
+
         </div>
 
         {/* Consultants Onsite vs Offsite Analysis */}
@@ -296,7 +277,7 @@ export default function StaffAnalysis() {
 
 
         {/* Work Council and Labor Union */}
-        
+
 
         {/* Consultants' Location Analysis by Office */}
         {/* <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">
@@ -486,7 +467,7 @@ export default function StaffAnalysis() {
             <p className="text-zinc-600 mb-4">
               {consultantData.fiscalYear}
             </p>
-            
+
             <div className="overflow-x-auto">
               <table className="min-w-full divide-y divide-zinc-200">
                 <thead className="bg-zinc-50">
@@ -510,7 +491,7 @@ export default function StaffAnalysis() {
                       1.5Lakh-2Lakh
                     </th>
                     <th scope="col" className="px-6 py-3 text-left text-sm font-medium text-zinc-500 uppercase tracking-wider">
-                    2 Lakh & Above
+                      2 Lakh & Above
                     </th>
                   </tr>
                 </thead>
@@ -573,7 +554,7 @@ export default function StaffAnalysis() {
             <p className="text-zinc-600 mb-4">
               {employeeData.fiscalYear}
             </p>
-            
+
             <div className="overflow-x-auto">
               <table className="min-w-full divide-y divide-zinc-200">
                 <thead className="bg-zinc-50">
@@ -645,6 +626,14 @@ export default function StaffAnalysis() {
                       </td>
                     </tr>
                   ))}
+                  <tr className="bg-zinc-50 font-semibold">
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-zinc-900">
+                      Total
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-zinc-900">
+                      {locationData.total}
+                    </td>
+                  </tr>
                 </tbody>
               </table>
             </div>
@@ -795,7 +784,7 @@ export default function StaffAnalysis() {
           </div>
         </div>
 
-       
+
 
         {/* Bench Analysis */}
         <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">
@@ -825,7 +814,7 @@ export default function StaffAnalysis() {
             </div>
           </div>
         </div>
-<div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
           <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm">
             <div className="flex items-center gap-3 mb-4">
               <div className="p-2 bg-[#fb5642] rounded-lg">
@@ -847,7 +836,7 @@ export default function StaffAnalysis() {
                   </div>
                 </div>
               </div>
-          
+
             </div>
           </div>
 
@@ -872,7 +861,7 @@ export default function StaffAnalysis() {
                   </div>
                 </div>
               </div>
-            
+
             </div>
           </div>
         </div>
