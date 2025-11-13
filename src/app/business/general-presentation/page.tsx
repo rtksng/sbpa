@@ -139,8 +139,7 @@ export default function GeneralPresentation() {
                       <p className="text-lg font-semibold text-zinc-900">Canada</p>
                     </div>
                     <p className="text-lg text-zinc-600 leading-relaxed">
-                      17010, 103 Ave NW, Edmonton,<br />
-                      AB T5S 1K7, Canada
+                    55 Village Centre Place Suite 307, Mississauga Ontario L4Z1V9, Canada
                     </p>
                   </div>
                   <div className="bg-white rounded-lg p-3 border border-zinc-200 hover:border-[#fb5642]/30 hover:shadow-sm transition-all group ">
