@@ -161,7 +161,59 @@ export default function GeneralPresentation() {
         </div>
         {/* Our USP */}
         <div className="bg-white rounded-lg border border-zinc-200 p-6 shadow-sm mb-6">
-          <div className="flex items-center gap-3 mb-6">
+           {/* Value Proposition */}
+           <div className='mb-6'>
+              <div className="flex items-center gap-2 mb-3">
+                <div className="p-2 bg-[#fb5642] rounded-lg">
+                  <FiAward className="text-white" size={18} />
+                </div>
+                <h3 className="text-lg font-semibold text-zinc-900">Value Proposition</h3>
+              </div>
+              <div className="bg-gradient-to-r from-[#fb5642]/10 to-orange-100 rounded-lg p-5 border border-[#fb5642]/20">
+                <p className="text-zinc-600 italic text-xl font-medium text-center mb-3">"World-Class Services. Proprietary Tools. Proven Outcomes."</p>
+                <div className="flex items-start gap-2">
+                  <div className="mt-1.5 w-1.5 h-1.5 bg-[#fb5642] rounded-full flex-shrink-0"></div>
+                  <p className="text-zinc-600">Seasia Group blends technology, innovation, and discipline to help enterprises accelerate digital transformation, enhance customer experience, and scale globally.</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Vision 2030 */}
+            <div>
+              <div className="flex items-center gap-2 mb-3">
+                <div className="p-2 bg-[#fb5642] rounded-lg">
+                  <FiTarget className="text-white" size={18} />
+                </div>
+                <h3 className="text-lg font-semibold text-zinc-900">Vision 2030</h3>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="flex items-start gap-2 p-3 bg-white rounded-lg border border-zinc-200">
+                  <div className="p-1 bg-[#fb5642]/10 rounded mt-0.5">
+                    <FiTarget className="text-[#fb5642]" />
+                  </div>
+                  <p className="text-zinc-600">$100M+ Revenue Target</p>
+                </div>
+                <div className="flex items-start gap-2 p-3 bg-white rounded-lg border border-zinc-200">
+                  <div className="p-1 bg-[#fb5642]/10 rounded mt-0.5">
+                    <FiGlobe className="text-[#fb5642]" />
+                  </div>
+                  <p className="text-zinc-600">Expansion in North America, Europe & Middle East</p>
+                </div>
+                <div className="flex items-start gap-2 p-3 bg-white rounded-lg border border-zinc-200">
+                  <div className="p-1 bg-[#fb5642]/10 rounded mt-0.5">
+                    <FiTrendingUp className="text-[#fb5642]" />
+                  </div>
+                  <p className="text-zinc-600">Strengthen AI, Cloud, and Automation portfolio</p>
+                </div>
+                <div className="flex items-start gap-2 p-3 bg-white rounded-lg border border-zinc-200">
+                  <div className="p-1 bg-[#fb5642]/10 rounded mt-0.5">
+                    <FiSettings className="text-[#fb5642]" />
+                  </div>
+                  <p className="text-zinc-600">Continue to build IP-led growth through proprietary accelerators</p>
+                </div>
+              </div>
+            </div>
+          <div className="flex items-center gap-3 my-6">
             <div className="p-2 bg-[#fb5642] rounded-lg">
               <FiCheck className="text-white" />
             </div>
@@ -181,7 +233,7 @@ export default function GeneralPresentation() {
                 </div>
                 <div className="flex items-start gap-2">
                   <div className="mt-1.5 w-1.5 h-1.5 bg-[#fb5642] rounded-full flex-shrink-0"></div>
-                  <p className="text-zinc-600">Backed by CMMI Level 5, ISO-certified processes, and global delivery centers across the US, Canada, Europe, and Asia.</p>
+                  <p className="text-zinc-600">Backed by CMMI Level 5, ISO-certified processes, and GCC in India.</p>
                 </div>
                 <div className="flex items-start gap-2">
                   <div className="mt-1.5 w-1.5 h-1.5 bg-[#fb5642] rounded-full flex-shrink-0"></div>
@@ -431,48 +483,7 @@ export default function GeneralPresentation() {
               </div>
             </div>
 
-            {/* Value Proposition */}
-            <div>
-              <h3 className="text-lg font-semibold text-zinc-900 mb-3">Value Proposition</h3>
-              <div className="bg-gradient-to-r from-[#fb5642]/10 to-orange-100 rounded-lg p-5 border border-[#fb5642]/20">
-                <p className="text-zinc-600 italic text-xl font-medium text-center mb-3">"World-Class Services. Proprietary Tools. Proven Outcomes."</p>
-                <div className="flex items-start gap-2">
-                  <div className="mt-1.5 w-1.5 h-1.5 bg-[#fb5642] rounded-full flex-shrink-0"></div>
-                  <p className="text-zinc-600">Seasia Group blends technology, innovation, and discipline to help enterprises accelerate digital transformation, enhance customer experience, and scale globally.</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Vision 2030 */}
-            <div>
-              <h3 className="text-lg font-semibold text-zinc-900 mb-3">Vision 2030</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div className="flex items-start gap-2 p-3 bg-white rounded-lg border border-zinc-200">
-                  <div className="p-1 bg-[#fb5642]/10 rounded mt-0.5">
-                    <FiTarget className="text-[#fb5642]" />
-                  </div>
-                  <p className="text-zinc-600">$100M+ Revenue Target</p>
-                </div>
-                <div className="flex items-start gap-2 p-3 bg-white rounded-lg border border-zinc-200">
-                  <div className="p-1 bg-[#fb5642]/10 rounded mt-0.5">
-                    <FiGlobe className="text-[#fb5642]" />
-                  </div>
-                  <p className="text-zinc-600">Expansion in North America, Europe & Middle East</p>
-                </div>
-                <div className="flex items-start gap-2 p-3 bg-white rounded-lg border border-zinc-200">
-                  <div className="p-1 bg-[#fb5642]/10 rounded mt-0.5">
-                    <FiTrendingUp className="text-[#fb5642]" />
-                  </div>
-                  <p className="text-zinc-600">Strengthen AI, Cloud, and Automation portfolio</p>
-                </div>
-                <div className="flex items-start gap-2 p-3 bg-white rounded-lg border border-zinc-200">
-                  <div className="p-1 bg-[#fb5642]/10 rounded mt-0.5">
-                    <FiSettings className="text-[#fb5642]" />
-                  </div>
-                  <p className="text-zinc-600">Continue to build IP-led growth through proprietary accelerators</p>
-                </div>
-              </div>
-            </div>
+           
           </div>
         </div>
         {/* Activity Description */}

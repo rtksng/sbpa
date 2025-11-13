@@ -15,9 +15,9 @@ const leadershipData = {
     imageSrc: '/employees-images/RP-Singh.png',
   },
   finance: [
+    { name: 'Ritu', designation: 'Accounting Manager', experience: '20+ Years', imageSrc: '/employees-images/Finance/Ritu.png' },
     { name: 'Priyanka', designation: 'AR Manager', experience: '12+ Years', imageSrc: '/employees-images/Finance/Priyanka.png' },
     { name: 'Suresh Kumar', designation: 'Payroll Manager', experience: '40+ Years', imageSrc: '/employees-images/Finance/Suresh-Kumar.png' },
-    { name: 'Ritu', designation: 'Accounting Manager', experience: '20+ Years', imageSrc: '/employees-images/Finance/Ritu.png' },
   ],
   hr: [
     { name: 'Dr. Harpreet Kaur', designation: 'Director HR & Admin', experience: '26 Years', imageSrc: '/employees-images/HR/Harpreet-Kaur.png' },

@@ -87,19 +87,19 @@ export default function StaffAnalysis() {
     categories: [
       {
         ageRange: "under 25",
-        percentage: 24.8
+        percentage: 27.5
       },
       {
         ageRange: "25-35 years",
-        percentage: 56.0
+        percentage: 63
       },
       {
         ageRange: "35-45 years",
-        percentage: 19.0
+        percentage: 8
       },
       {
         ageRange: "45-55 years",
-        percentage: 0.0
+        percentage: 1.3
       },
       {
         ageRange: "over 55",
