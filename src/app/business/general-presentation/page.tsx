@@ -1201,34 +1201,7 @@ export default function GeneralPresentation() {
               Seasia Infotech maintains long-term and multi-engagement relationships with clients across diverse industries and geographies. These engagements span product engineering, QA centres of excellence, architecture consulting, and enterprise digital transformation.
             </p>
 
-            {/* Client Logo Carousel */}
-            <div className="w-full overflow-hidden bg-white rounded-lg p-6 mb-6">
-              <div className="relative">
-                <div className="flex animate-scroll gap-20">
-                  {/* First set of logos */}
-                  {Array.from({ length: 26 }, (_, i) => (
-                    <div key={`logo-${i + 1}`} className="flex-shrink-0">
-                      <img
-                        src={`/clients-logo/clientlogo (${i + 1}).svg`}
-                        alt={`Client Logo ${i + 1}`}
-                        className="h-8 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity duration-300"
-                      />
-                    </div>
-                  ))}
-                  {/* Duplicate set for seamless infinite scroll */}
-                  {Array.from({ length: 26 }, (_, i) => (
-                    <div key={`logo-dup-${i + 1}`} className="flex-shrink-0">
-                      <img
-                        src={`/clients-logo/clientlogo (${i + 1}).svg`}
-                        alt={`Client Logo ${i + 1}`}
-                        className="h-8 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity duration-300"
-                      />
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-
+         
             <div className="grid lg:grid-cols-3 gap-3">
               <div className="bg-white rounded-lg p-5 border border-zinc-200 hover:shadow-lg transition-shadow">
                 <div className="flex items-start gap-4">
