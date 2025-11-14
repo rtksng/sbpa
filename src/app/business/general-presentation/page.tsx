@@ -1190,7 +1190,7 @@ export default function GeneralPresentation() {
               <FiUsers className="text-blue-600" />
             </div>
             <h2 className="text-xl font-semibold text-zinc-900">
-              Main Clients and Prospects
+              Main Clients 
             </h2>
           </div>
 
@@ -1201,17 +1201,45 @@ export default function GeneralPresentation() {
               Seasia Infotech maintains long-term and multi-engagement relationships with clients across diverse industries and geographies. These engagements span product engineering, QA centres of excellence, architecture consulting, and enterprise digital transformation.
             </p>
 
-            <div className="grid lg:grid-cols-4 gap-3">
+            {/* Client Logo Carousel */}
+            <div className="w-full overflow-hidden bg-white rounded-lg p-6 mb-6">
+              <div className="relative">
+                <div className="flex animate-scroll gap-20">
+                  {/* First set of logos */}
+                  {Array.from({ length: 26 }, (_, i) => (
+                    <div key={`logo-${i + 1}`} className="flex-shrink-0">
+                      <img
+                        src={`/clients-logo/clientlogo (${i + 1}).svg`}
+                        alt={`Client Logo ${i + 1}`}
+                        className="h-8 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity duration-300"
+                      />
+                    </div>
+                  ))}
+                  {/* Duplicate set for seamless infinite scroll */}
+                  {Array.from({ length: 26 }, (_, i) => (
+                    <div key={`logo-dup-${i + 1}`} className="flex-shrink-0">
+                      <img
+                        src={`/clients-logo/clientlogo (${i + 1}).svg`}
+                        alt={`Client Logo ${i + 1}`}
+                        className="h-8 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity duration-300"
+                      />
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            <div className="grid lg:grid-cols-3 gap-3">
               <div className="bg-white rounded-lg p-5 border border-zinc-200 hover:shadow-lg transition-shadow">
                 <div className="flex items-start gap-4">
                   <div className="p-2 bg-[#fb5642] rounded-lg flex-shrink-0">
                     <FiBriefcase className="text-white" />
                   </div>
                   <div className="flex-1">
-                    <h4 className="font-semibold text-zinc-900 mb-1">Pilot Flying J (USA)</h4>
-                    <p className="text-lg text-zinc-500 mb-2">Logistics & Retail</p>
+                    <h4 className="font-semibold text-zinc-900 mb-1">AT&T (USA)</h4>
+                    <p className="text-lg text-zinc-500 mb-2">Telecom, Consumer Electronics</p>
                     <p className="text-zinc-600 text-lg leading-relaxed">
-                      Enterprise mobility and digital transformation initiatives supporting operational digitization.
+                      Built a unified in-store, consumer online, and B2B trade-in platform including device evaluation, valuation logic, bulk B2B intake workflows, and upgrade checkout modules.
                     </p>
                   </div>
                 </div>
@@ -1223,10 +1251,10 @@ export default function GeneralPresentation() {
                     <FiBriefcase className="text-white" />
                   </div>
                   <div className="flex-1">
-                    <h4 className="font-semibold text-zinc-900 mb-1">Assurant (USA)</h4>
-                    <p className="text-lg text-zinc-500 mb-2">Insurance / Fintech</p>
+                    <h4 className="font-semibold text-zinc-900 mb-1">Verizon (USA)</h4>
+                    <p className="text-lg text-zinc-500 mb-2">Telecom</p>
                     <p className="text-zinc-600 text-lg leading-relaxed">
-                      End-to-end QA and automation services, test architecture consulting, and AI-driven quality governance.
+                      Developed a B2B-centric trade-in and bulk device intake system streamlining enterprise upgrade cycles and logistics workflows.
                     </p>
                   </div>
                 </div>
@@ -1238,10 +1266,10 @@ export default function GeneralPresentation() {
                     <FiBriefcase className="text-white" />
                   </div>
                   <div className="flex-1">
-                    <h4 className="font-semibold text-zinc-900 mb-1">Swaraj (India)</h4>
-                    <p className="text-lg text-zinc-500 mb-2">Manufacturing & AgriTech</p>
+                    <h4 className="font-semibold text-zinc-900 mb-1">Google US (USA)</h4>
+                    <p className="text-lg text-zinc-500 mb-2">Big Tech, Consumer Electronics</p>
                     <p className="text-zinc-600 text-lg leading-relaxed">
-                      Custom software and mobile application development for dealer management and service digitization.
+                      Delivered both in-store trade-in (Monty) and online consumer trade-in flows, including diagnostics, valuation, and upgrade checkout paths.
                     </p>
                   </div>
                 </div>
@@ -1253,10 +1281,10 @@ export default function GeneralPresentation() {
                     <FiBriefcase className="text-white" />
                   </div>
                   <div className="flex-1">
-                    <h4 className="font-semibold text-zinc-900 mb-1">Idemia (Europe)</h4>
-                    <p className="text-lg text-zinc-500 mb-2">Security & Identity</p>
+                    <h4 className="font-semibold text-zinc-900 mb-1">Google Canada</h4>
+                    <p className="text-lg text-zinc-500 mb-2">Big Tech, Consumer Electronics</p>
                     <p className="text-zinc-600 text-lg leading-relaxed">
-                      Engineering and testing support for secure digital identity and authentication systems.
+                      Built the consumer online trade-in platform supporting Pixel upgrade journeys with diagnostics and real-time price estimation.
                     </p>
                   </div>
                 </div>
@@ -1268,10 +1296,10 @@ export default function GeneralPresentation() {
                     <FiBriefcase className="text-white" />
                   </div>
                   <div className="flex-1">
-                    <h4 className="font-semibold text-zinc-900 mb-1">Lemon HQ (Europe)</h4>
-                    <p className="text-lg text-zinc-500 mb-2">Product Design & SaaS</p>
+                    <h4 className="font-semibold text-zinc-900 mb-1">TELUS (Canada)</h4>
+                    <p className="text-lg text-zinc-500 mb-2">Telecom</p>
                     <p className="text-zinc-600 text-lg leading-relaxed">
-                      Architecture design, QA automation, and delivery enablement for product modernization.
+                      Developed online and retail trade-in workflows, including automated condition checks and integrated upgrade checkout systems.
                     </p>
                   </div>
                 </div>
@@ -1283,10 +1311,10 @@ export default function GeneralPresentation() {
                     <FiBriefcase className="text-white" />
                   </div>
                   <div className="flex-1">
-                    <h4 className="font-semibold text-zinc-900 mb-1">Sumeru (India)</h4>
-                    <p className="text-lg text-zinc-500 mb-2">Enterprise Consulting</p>
+                    <h4 className="font-semibold text-zinc-900 mb-1">Freedom Mobile (Canada)</h4>
+                    <p className="text-lg text-zinc-500 mb-2">Telecom</p>
                     <p className="text-zinc-600 text-lg leading-relaxed">
-                      Solution architecture, data engineering, and integration enablement projects.
+                      Created consumer and in-store trade-in systems with device grading, instant valuation, and seamless e-commerce linkage.
                     </p>
                   </div>
                 </div>
@@ -1298,14 +1326,315 @@ export default function GeneralPresentation() {
                     <FiBriefcase className="text-white" />
                   </div>
                   <div className="flex-1">
-                    <h4 className="font-semibold text-zinc-900 mb-1">Creative Clarity (UK)</h4>
-                    <p className="text-lg text-zinc-500 mb-2">Design & Technology</p>
+                    <h4 className="font-semibold text-zinc-900 mb-1">KOODO (Canada)</h4>
+                    <p className="text-lg text-zinc-500 mb-2">Telecom</p>
                     <p className="text-zinc-600 text-lg leading-relaxed">
-                      UI/UX collaboration, front-end development, and ongoing QA partnership for multiple digital products.
+                      Implemented a consumer online trade-in solution with automated grading and upgrade flow integration.
                     </p>
                   </div>
                 </div>
               </div>
+
+              <div className="bg-white rounded-lg p-5 border border-zinc-200 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="p-2 bg-[#fb5642] rounded-lg flex-shrink-0">
+                    <FiBriefcase className="text-white" />
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="font-semibold text-zinc-900 mb-1">Target (USA)</h4>
+                    <p className="text-lg text-zinc-500 mb-2">Retail, Consumer Electronics</p>
+                    <p className="text-zinc-600 text-lg leading-relaxed">
+                      Built a combined in-store & online trade-in + e-commerce upgrade module for electronics, supporting automated valuation and checkout integration.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-lg p-5 border border-zinc-200 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="p-2 bg-[#fb5642] rounded-lg flex-shrink-0">
+                    <FiBriefcase className="text-white" />
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="font-semibold text-zinc-900 mb-1">WOW (USA)</h4>
+                    <p className="text-lg text-zinc-500 mb-2">Internet & Cable Retail</p>
+                    <p className="text-zinc-600 text-lg leading-relaxed">
+                      Developed retail and consumer trade-in systems for device evaluation, pricing, and upgrade facilitation.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-lg p-5 border border-zinc-200 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="p-2 bg-[#fb5642] rounded-lg flex-shrink-0">
+                    <FiBriefcase className="text-white" />
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="font-semibold text-zinc-900 mb-1">BBY – Best Buy (USA)</h4>
+                    <p className="text-lg text-zinc-500 mb-2">Retail, Electronics</p>
+                    <p className="text-zinc-600 text-lg leading-relaxed">
+                      Delivered in-store and online trade-in software, including AI-based evaluation modules and upgrade checkout flows.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-lg p-5 border border-zinc-200 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="p-2 bg-[#fb5642] rounded-lg flex-shrink-0">
+                    <FiBriefcase className="text-white" />
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="font-semibold text-zinc-900 mb-1">BuySell</h4>
+                    <p className="text-lg text-zinc-500 mb-2">Electronics Resale / ReCommerce</p>
+                    <p className="text-zinc-600 text-lg leading-relaxed">
+                      Built a multi-device trade-in & resale platform with valuation engine, intake workflows, and resale e-commerce integration.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-lg p-5 border border-zinc-200 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="p-2 bg-[#fb5642] rounded-lg flex-shrink-0">
+                    <FiBriefcase className="text-white" />
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="font-semibold text-zinc-900 mb-1">NRET</h4>
+                    <p className="text-lg text-zinc-500 mb-2">Device Resale, E-Commerce</p>
+                    <p className="text-zinc-600 text-lg leading-relaxed">
+                      Developed a trade-in workflow platform with standardized grading logic and integrated resale management.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-lg p-5 border border-zinc-200 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="p-2 bg-[#fb5642] rounded-lg flex-shrink-0">
+                    <FiBriefcase className="text-white" />
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="font-semibold text-zinc-900 mb-1">Tracfone (USA)</h4>
+                    <p className="text-lg text-zinc-500 mb-2">Prepaid Wireless / Telecom</p>
+                    <p className="text-zinc-600 text-lg leading-relaxed">
+                      Implemented consumer trade-in workflows with IMEI-based valuation, condition checks, and upgrade options.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-lg p-5 border border-zinc-200 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="p-2 bg-[#fb5642] rounded-lg flex-shrink-0">
+                    <FiBriefcase className="text-white" />
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="font-semibold text-zinc-900 mb-1">USCC – US Cellular (USA)</h4>
+                    <p className="text-lg text-zinc-500 mb-2">Telecom</p>
+                    <p className="text-zinc-600 text-lg leading-relaxed">
+                      Delivered consumer + in-store trade-in systems including real-time evaluation, credit calculation, and device-upgrade checkout integration.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-lg p-5 border border-zinc-200 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="p-2 bg-[#fb5642] rounded-lg flex-shrink-0">
+                    <FiBriefcase className="text-white" />
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="font-semibold text-zinc-900 mb-1">Sprint (USA)</h4>
+                    <p className="text-lg text-zinc-500 mb-2">Telecom</p>
+                    <p className="text-zinc-600 text-lg leading-relaxed">
+                      Built Sprint's retail and online trade-in platform, supporting device assessment and automated upgrade flows.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-lg p-5 border border-zinc-200 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="p-2 bg-[#fb5642] rounded-lg flex-shrink-0">
+                    <FiBriefcase className="text-white" />
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="font-semibold text-zinc-900 mb-1">Vodafone (Global)</h4>
+                    <p className="text-lg text-zinc-500 mb-2">Telecom</p>
+                    <p className="text-zinc-600 text-lg leading-relaxed">
+                      Developed trade-in and upgrade technology for customer channels across multiple geographies, including grading and valuation capabilities.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-lg p-5 border border-zinc-200 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="p-2 bg-[#fb5642] rounded-lg flex-shrink-0">
+                    <FiBriefcase className="text-white" />
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="font-semibold text-zinc-900 mb-1">Microsoft (USA)</h4>
+                    <p className="text-lg text-zinc-500 mb-2">Big Tech, Consumer Hardware</p>
+                    <p className="text-zinc-600 text-lg leading-relaxed">
+                      Built Microsoft's device trade-in engine for Surface/mobile devices, including self-diagnostic tools and upgrade checkout integration.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-lg p-5 border border-zinc-200 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="p-2 bg-[#fb5642] rounded-lg flex-shrink-0">
+                    <FiBriefcase className="text-white" />
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="font-semibold text-zinc-900 mb-1">Cisco (USA)</h4>
+                    <p className="text-lg text-zinc-500 mb-2">Enterprise Networking Hardware</p>
+                    <p className="text-zinc-600 text-lg leading-relaxed">
+                      Developed a hardware trade-in and buyback lifecycle platform for networking equipment with enterprise upgrade workflows.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-lg p-5 border border-zinc-200 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="p-2 bg-[#fb5642] rounded-lg flex-shrink-0">
+                    <FiBriefcase className="text-white" />
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="font-semibold text-zinc-900 mb-1">Itochu Corporation (Japan)</h4>
+                    <p className="text-lg text-zinc-500 mb-2">Global Trading, Consumer Electronics Distribution</p>
+                    <p className="text-zinc-600 text-lg leading-relaxed">
+                      Built global trade-in and device buyback solutions, supporting diagnostics, valuation, and integrated B2B/B2C workflows.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-lg p-5 border border-zinc-200 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="p-2 bg-[#fb5642] rounded-lg flex-shrink-0">
+                    <FiBriefcase className="text-white" />
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="font-semibold text-zinc-900 mb-1">NTT Docomo (Japan)</h4>
+                    <p className="text-lg text-zinc-500 mb-2">Telecom</p>
+                    <p className="text-zinc-600 text-lg leading-relaxed">
+                      Delivered a full retail and consumer trade-in engine including automated evaluation and upgrade purchase modules.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-lg p-5 border border-zinc-200 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="p-2 bg-[#fb5642] rounded-lg flex-shrink-0">
+                    <FiBriefcase className="text-white" />
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="font-semibold text-zinc-900 mb-1">Samsung (Global)</h4>
+                    <p className="text-lg text-zinc-500 mb-2">Consumer Electronics, Mobile Hardware</p>
+                    <p className="text-zinc-600 text-lg leading-relaxed">
+                      Built Samsung's global trade-in infrastructure, including device diagnostics, valuation algorithms, and integrated consumer upgrade flows.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-lg p-5 border border-zinc-200 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="p-2 bg-[#fb5642] rounded-lg flex-shrink-0">
+                    <FiBriefcase className="text-white" />
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="font-semibold text-zinc-900 mb-1">Facebook / Meta (USA)</h4>
+                    <p className="text-lg text-zinc-500 mb-2">Big Tech</p>
+                    <p className="text-zinc-600 text-lg leading-relaxed">
+                      Delivered trade-in and device refresh systems supporting internal programs and external consumer upgrade workflows.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-lg p-5 border border-zinc-200 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="p-2 bg-[#fb5642] rounded-lg flex-shrink-0">
+                    <FiBriefcase className="text-white" />
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="font-semibold text-zinc-900 mb-1">Orange (France & Poland)</h4>
+                    <p className="text-lg text-zinc-500 mb-2">Telecom</p>
+                    <p className="text-zinc-600 text-lg leading-relaxed">
+                      Developed in-store and online trade-in platforms with automated grading, valuation, and e-commerce upgrade integration.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-lg p-5 border border-zinc-200 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="p-2 bg-[#fb5642] rounded-lg flex-shrink-0">
+                    <FiBriefcase className="text-white" />
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="font-semibold text-zinc-900 mb-1">WIND (Italy)</h4>
+                    <p className="text-lg text-zinc-500 mb-2">Telecom</p>
+                    <p className="text-zinc-600 text-lg leading-relaxed">
+                      Built trade-in and exchange software for retail and consumer portals with full diagnostics and valuation systems.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-lg p-5 border border-zinc-200 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="p-2 bg-[#fb5642] rounded-lg flex-shrink-0">
+                    <FiBriefcase className="text-white" />
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="font-semibold text-zinc-900 mb-1">Itochu Corporation (Japan)</h4>
+                    <p className="text-lg text-zinc-500 mb-2">Global Trading & Consumer Electronics</p>
+                    <p className="text-zinc-600 text-lg leading-relaxed">
+                      Developed a comprehensive phone trade-in solution and e-commerce component, enabling device evaluation, pricing logic, buyback workflows, and seamless retail integration across Itochu's distribution ecosystem.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-lg p-5 border border-zinc-200 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="p-2 bg-[#fb5642] rounded-lg flex-shrink-0">
+                    <FiBriefcase className="text-white" />
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="font-semibold text-zinc-900 mb-1">Massachusetts Medical Society (USA)</h4>
+                    <p className="text-lg text-zinc-500 mb-2">Healthcare, Publishing</p>
+                    <p className="text-zinc-600 text-lg leading-relaxed">
+                      Support for digital subscription platforms, medical-education delivery systems, accessibility QA, and secure content management.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-lg p-5 border border-zinc-200 hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="p-2 bg-[#fb5642] rounded-lg flex-shrink-0">
+                    <FiBriefcase className="text-white" />
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="font-semibold text-zinc-900 mb-1">Adani Group (India)</h4>
+                    <p className="text-lg text-zinc-500 mb-2">Infrastructure, Energy, Gas Distribution</p>
+                    <p className="text-zinc-600 text-lg leading-relaxed">
+                      Developed a GIS-based mapping and operational intelligence dashboard for Adani's gas pipeline network. This solution enhanced operational transparency, pipeline monitoring efficiency, predictive maintenance capability, and regulatory compliance.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
             </div>
 
             <div className="mt-6 bg-zinc-50 rounded-lg p-4">
